@@ -2,10 +2,8 @@ name: NBA WOWY Stats Scraper
 
 on:
   schedule:
-    # Run daily at 2:00 AM UTC
     - cron: '0 13 * * *'
   workflow_dispatch:
-    # Allow manual triggering
 
 jobs:
   scrape-nba-stats:
@@ -13,51 +11,58 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch all history for all branches and tags
-      
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
           cache: 'pip'
-      
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pandas requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      
+
       - name: Create data directories
         run: |
           mkdir -p data
           python -c "from pathlib import Path; [Path(f'data/{year}').mkdir(parents=True, exist_ok=True) for year in range(2010, 2026)]; [Path(f'data/{year}ps').mkdir(parents=True, exist_ok=True) for year in range(2001, 2026)]"
-      
+
       - name: Run NBA stats scraper
         run: |
           python actionscript.py
         env:
-          # Add any environment variables if needed
           PYTHONUNBUFFERED: 1
-      
+
+      - name: Check if log file exists
+        run: |
+          if [ -f wowy_scraper.log ]; then
+            echo "Log file exists."
+          else
+            echo "Log file missing. Creating an empty log file."
+            touch wowy_scraper.log
+          fi
+
+      - name: Upload logs as artifacts
+        uses: actions/upload-artifact@v4  # Updated version
+        with:
+          name: scraper-logs
+          path: wowy_scraper.log
+          retention-days: 30  # Increased retention period
+
       - name: Configure Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-      
+
       - name: Commit and push if changes
         run: |
           git add data/
           git add wowy_scraper.log
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update NBA stats data [automated]" && git push)
         env:
-          # Use the built-in GITHUB_TOKEN for authentication
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Upload logs as artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: scraper-logs
-          path: wowy_scraper.log
-          retention-days: 7
