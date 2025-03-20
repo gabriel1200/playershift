@@ -56,4 +56,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload logs as artifacts
-        uses: actions/upload-ar
+        uses: actions/upload-artifact@v3
+        with:
+          name: scraper-logs
+          path: wowy_scraper.log
+          retention-days: 7
