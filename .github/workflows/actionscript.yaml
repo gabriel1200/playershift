@@ -3,7 +3,7 @@ name: NBA WOWY Stats Scraper
 on:
   schedule:
     # Run daily at 2:00 AM UTC
-    - cron: '0 2 * * *'
+    - cron: '0 13 * * *'
   workflow_dispatch:
     # Allow manual triggering
 
