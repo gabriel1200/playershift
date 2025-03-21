@@ -75,7 +75,7 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
         "SeasonType": s_type,
         "Type": "Player",  # Player stats
     }
-    
+    time.sleep(2)
     # Get stats with player off floor
     wowy_data = make_api_request(wowy_url, wowy_params_off, headers1, max_retries)
     player_stats_off = wowy_data["multi_row_table_data"]
