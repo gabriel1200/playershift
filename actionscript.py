@@ -61,9 +61,11 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
     }
     
     # Get stats with player on floor
+    logging.info(f"Fetching ON {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id}  {', '.join(seasons) if seasons else 'N/A'}")
+
     wowy_data = make_api_request(wowy_url, wowy_params_on, headers1, max_retries)
     player_stats_on = wowy_data["multi_row_table_data"]
-    logging.info(f"Fetching {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id} across {', '.join(seasons) if seasons else 'N/A'}")
+    logging.info(f"Fetched ON {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id} across {', '.join(seasons) if seasons else 'N/A'}")
 
     # Wait to avoid rate limiting
     time.sleep(2)
@@ -76,11 +78,16 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
         "SeasonType": s_type,
         "Type": "Player",  # Player stats
     }
-    time.sleep(2)
+
     # Get stats with player off floor
+    logging.info(f"Fetching OFF {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id}  {', '.join(seasons) if seasons else 'N/A'}")
+
     wowy_data = make_api_request(wowy_url, wowy_params_off, headers1, max_retries)
+
+
     player_stats_off = wowy_data["multi_row_table_data"]
-   
+    logging.info(f"Fetched OFF {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id} across {', '.join(seasons) if seasons else 'N/A'}")
+    time.sleep(2)
     # Create and combine dataframes
     df = pd.DataFrame(player_stats_on)
     df['on'] = True
