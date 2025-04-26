@@ -10,13 +10,127 @@ import sys
 from datetime import datetime, timedelta
 import random
 from requests.exceptions import RequestException, ConnectionError, Timeout
+from datetime import date, datetime, timedelta
 
-def make_api_request(url, params, headers, max_retries=5, initial_wait=2):
+
+
+
+
+# Headers pools to rotate through
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (iPad; CPU OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Edge/125.0.0.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+]
+
+ACCEPT_TYPES = [
+    "application/json, text/plain, */*",
+    "application/json",
+    "application/json, text/javascript, */*; q=0.01",
+    "*/*",
+    "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+]
+
+ACCEPT_LANGUAGES = [
+    "en-US,en;q=0.9",
+    "en-US,en;q=0.5",
+    "en-GB,en;q=0.7,en-US;q=0.3",
+    "en-US,en;q=0.8,es;q=0.5",
+    "en-CA,en;q=0.9,fr-CA;q=0.7"
+]
+
+ACCEPT_ENCODINGS = [
+    "gzip, deflate, br",
+    "gzip, deflate",
+    "br;q=1.0, gzip;q=0.8, *;q=0.1"
+]
+
+REFERERS = [
+    "https://stats.nba.com/",
+    "https://www.nba.com/",
+    "https://www.nba.com/stats/",
+    "https://www.nba.com/players/",
+    "https://www.nba.com/teams/",
+    "https://www.espn.com/nba/",
+    "https://www.basketball-reference.com/"
+]
+
+HOSTS = [
+    "stats.nba.com",
+    "api.nba.com",
+    "data.nba.com",
+    "www.nba.com"
+]
+
+CONNECTIONS = [
+    "keep-alive",
+    "close"
+]
+
+CACHE_CONTROLS = [
+    "max-age=0",
+    "no-cache",
+    "max-age=300"
+]
+
+def get_random_headers():
+    """Generate random realistic headers to avoid detection."""
+    user_agent = random.choice(USER_AGENTS)
+    
+    # Build header with mandatory fields
+    headers = {
+        "User-Agent": user_agent,
+        "Accept": random.choice(ACCEPT_TYPES),
+    }
+    
+    # Add optional headers with some randomness
+    if random.random() > 0.2:  # 80% chance to include
+        headers["Accept-Language"] = random.choice(ACCEPT_LANGUAGES)
+    
+    if random.random() > 0.2:  # 80% chance to include
+        headers["Accept-Encoding"] = random.choice(ACCEPT_ENCODINGS)
+        
+    if random.random() > 0.1:  # 90% chance to include
+        headers["Referer"] = random.choice(REFERERS)
+        
+    if random.random() > 0.3:  # 70% chance to include
+        headers["Host"] = random.choice(HOSTS)
+        
+    if random.random() > 0.3:  # 70% chance to include
+        headers["Connection"] = random.choice(CONNECTIONS)
+        
+    # Add some extra headers occasionally
+    if random.random() > 0.7:  # 30% chance to include
+        headers["Cache-Control"] = random.choice(CACHE_CONTROLS)
+        
+    if random.random() > 0.8:  # 20% chance to include
+        headers["Pragma"] = "no-cache"
+        
+    if random.random() > 0.8:  # 20% chance to include
+        headers["DNT"] = "1"
+        
+    if random.random() > 0.9:  # 10% chance to include
+        headers["Upgrade-Insecure-Requests"] = "1"
+        
+    # Add some random cookies occasionally
+    if random.random() > 0.9:  # 10% chance to include
+        cookie_id = f"{random.randint(10000000, 99999999)}"
+        session_id = f"session_{random.randint(1000000, 9999999)}"
+        headers["Cookie"] = f"_ga=GA1.2.{cookie_id}.{int(time.time() - random.randint(1000000, 9999999))}; _gid=GA1.2.{cookie_id}; sessionid={session_id}"
+        
+    return headers
+def make_api_request(url, params,  max_retries=5, initial_wait=2):
     """Make an API request with exponential backoff retry logic."""
     retries = 0
     while retries <= max_retries:
         try:
-            response = requests.get(url, params=params, headers=headers, timeout=30)
+            response = requests.get(url, params=params, headers=get_random_headers(), timeout=30)
             response.raise_for_status()  # Raise exception for 4XX/5XX responses
             return response.json()
         except (RequestException, ConnectionError, Timeout, ValueError) as e:
@@ -41,16 +155,7 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
         s_type = 'Playoffs'
                                   
     wowy_url = "https://api.pbpstats.com/get-wowy-stats/nba"
-    headers1 = {
-        "Host": "stats.nba.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0",
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Connection": "keep-alive",
-        "Referer": "https://stats.nba.com/"
-    }
-    
+
     # Player on floor parameters
     wowy_params_on = {
         "0Exactly1OnFloor": player_id,  # Player on
@@ -63,7 +168,7 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
     # Get stats with player on floor
     logging.info(f"Fetching ON {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id}  {', '.join(seasons) if seasons else 'N/A'}")
 
-    wowy_data = make_api_request(wowy_url, wowy_params_on, headers1, max_retries)
+    wowy_data = make_api_request(wowy_url, wowy_params_on,max_retries)
     player_stats_on = wowy_data["multi_row_table_data"]
     logging.info(f"Fetched ON {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id} across {', '.join(seasons) if seasons else 'N/A'}")
 
@@ -82,7 +187,7 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
     # Get stats with player off floor
     logging.info(f"Fetching OFF {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id}  {', '.join(seasons) if seasons else 'N/A'}")
 
-    wowy_data = make_api_request(wowy_url, wowy_params_off, headers1, max_retries)
+    wowy_data = make_api_request(wowy_url, wowy_params_off, max_retries)
 
 
     player_stats_off = wowy_data["multi_row_table_data"]
@@ -250,13 +355,32 @@ def process_daily_data(year: int, is_postseason: bool, index_df: pd.DataFrame, m
     copy_daily_files(daily_folder, main_folder)
     
     return daily_folder, main_folder
+def daily_index():
+    yest= int(date.today().strftime("%Y%m%d")) -1
+    print(yest)
+    dates =pd.read_csv('https://raw.githubusercontent.com/gabriel1200/shot_data/refs/heads/master/game_dates.csv')
+    dates=dates[dates.date==yest]
+    print(dates)
+    teams=dates['TEAM_ID'].unique()
+    isplayoffs=dates.playoffs.iloc[0]
 
+    season=dates.season.iloc[0]
+    season_year=int(season.split('-')[0]) +1
+    if not isplayoffs:
+        index_file = pd.read_csv('https://raw.githubusercontent.com/gabriel1200/site_Data/refs/heads/master/index_master.csv')
+    else:
+        index_file = pd.read_csv('https://raw.githubusercontent.com/gabriel1200/site_Data/refs/heads/master/index_master_ps.csv')
+
+    index_file.dropna(subset=['nba_id', 'team_id'], inplace=True)
+    index_file = index_file[index_file.team != 'TOT']
+    index_file=index_file[index_file.year==season_year]
+    daily_index=index_file[index_file.team_id.isin(teams)]
+    return daily_index,isplayoffs,season_year
 def main():
     start_time = datetime.now()
     logging.info(f"Starting daily scrape at {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # Set the current year
-    current_year = datetime.now().year
+
     
     # Load data with retries
     max_retries = 3
@@ -291,6 +415,7 @@ def main():
             time.sleep(wait_time)
 
     # Create initial folders
+    index_file,isplayoffs,current_year=daily_index()
     setup_folders(current_year)
     setup_folders(current_year, ps=True)
 
@@ -300,13 +425,11 @@ def main():
     
     try:
         # Process regular season data (always)
-        logging.info(f"Starting daily scrape for regular season {current_year}")
-        daily_folder, main_folder = process_daily_data(current_year, False, index_reg)
+
         
-        # Process postseason data (only during playoff season)
-        if is_playoff_season:
-            logging.info(f"Starting daily scrape for postseason {current_year}")
-            daily_folder_ps, main_folder_ps = process_daily_data(current_year, True, index_ps)
+        logging.info(f"Starting daily scrape for season {current_year}")
+        daily_folder, main_folder = process_daily_data(current_year, isplayoffs, index_file)
+
         
         end_time = datetime.now()
         duration = end_time - start_time
