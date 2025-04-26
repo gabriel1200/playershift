@@ -114169,3 +114169,670 @@
 2025-04-14 21:44:40,471 - INFO - No new data to process for 2025 regular season
 2025-04-14 21:44:47,407 - INFO - Processing regular season 2025
 2025-04-14 21:44:50,955 - INFO - No new data to process for 2025 regular season
+2025-04-26 11:09:44,322 - INFO - Processing regular season 2025
+2025-04-26 11:10:27,085 - INFO - Processing regular season 2025
+2025-04-26 11:11:30,968 - INFO - Processing postseason 2025
+2025-04-26 11:14:46,310 - ERROR - Error loading index files: Error tokenizing data. C error: Expected 1 fields in line 42, saw 51
+
+2025-04-26 11:15:05,217 - INFO - Processing postseason 2025
+2025-04-26 11:16:11,841 - INFO - Processing postseason 2025
+2025-04-26 11:18:36,482 - INFO - Processing postseason 2025
+2025-04-26 11:19:31,766 - INFO - Processing postseason 2025
+2025-04-26 11:20:42,310 - INFO - Processing postseason 2025
+2025-04-26 11:24:24,303 - INFO - Loading index data...
+2025-04-26 11:24:25,546 - INFO - Loaded 26609 regular season records and 10742 playoff records
+2025-04-26 11:24:25,548 - INFO - Processing regular season 2025
+2025-04-26 11:24:25,577 - INFO - Found 654 tasks to process for 2025 playoffs
+2025-04-26 11:24:52,414 - INFO - Loading index data...
+2025-04-26 11:24:53,666 - INFO - Loaded 26609 regular season records and 10742 playoff records
+2025-04-26 11:24:53,668 - INFO - Processing regular season 2025
+2025-04-26 11:24:56,755 - INFO - Found 0 tasks to process for 2025 regular season
+2025-04-26 11:24:56,755 - INFO - No new data to process for 2025
+2025-04-26 11:24:56,768 - INFO - Processing postseason 2025
+2025-04-26 11:24:56,774 - INFO - Found 202 tasks to process for 2025 playoffs
+2025-04-26 11:25:26,990 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=30)")': /get-wowy-stats/nba?0Exactly1OnFloor=1630583&TeamId=1610612763&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:25:26,993 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=30)")': /get-wowy-stats/nba?0Exactly1OnFloor=1628389&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:26:22,745 - INFO - Loading index data...
+2025-04-26 11:26:23,846 - INFO - Loaded 26609 regular season records and 10742 playoff records
+2025-04-26 11:26:23,847 - INFO - Processing regular season 2025
+2025-04-26 11:26:26,621 - INFO - Found 0 tasks to process for 2025 regular season
+2025-04-26 11:26:26,622 - INFO - No new data to process for 2025
+2025-04-26 11:26:26,632 - INFO - Processing postseason 2025
+2025-04-26 11:26:26,638 - INFO - Found 202 tasks to process for 2025 playoffs
+2025-04-26 11:26:57,679 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=30)")': /get-wowy-stats/nba?0Exactly0OnFloor=1628389&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:27:53,845 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=30)")': /get-wowy-stats/nba?0Exactly0OnFloor=1628386&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:28:47,517 - INFO - Processing regular season 2025
+2025-04-26 11:28:50,187 - INFO - No new data to process for 2025 regular season
+2025-04-26 11:29:08,989 - INFO - Processing postseason 2025
+2025-04-26 11:29:09,004 - INFO - Processing 202 player-team combinations for 2025 playoffs
+2025-04-26 11:29:09,005 - INFO - Processing chunk 1/14 for 2025
+2025-04-26 11:29:09,009 - INFO - Processing 203500 - 1610612745 for 2025
+2025-04-26 11:29:09,011 - INFO - Processing 1628389 - 1610612748 for 2025
+2025-04-26 11:29:09,012 - INFO - Processing 1630583 - 1610612763 for 2025
+2025-04-26 11:29:11,995 - INFO - Successfully saved data to data/2025ps/1630583.csv
+2025-04-26 11:29:11,996 - INFO - Processing 1629638 - 1610612750 for 2025
+2025-04-26 11:29:12,550 - INFO - Successfully saved data to data/2025ps/203500.csv
+2025-04-26 11:29:12,551 - INFO - Processing 1628386 - 1610612739 for 2025
+2025-04-26 11:29:12,589 - INFO - Successfully saved data to data/2025ps/1628389.csv
+2025-04-26 11:29:12,590 - INFO - Processing 203937 - 1610612748 for 2025
+2025-04-26 11:29:19,386 - INFO - Successfully saved data to data/2025ps/1629638.csv
+2025-04-26 11:29:19,387 - INFO - Processing 203507 - 1610612749 for 2025
+2025-04-26 11:29:26,712 - INFO - Successfully saved data to data/2025ps/203507.csv
+2025-04-26 11:29:26,714 - INFO - Processing 1630175 - 1610612753 for 2025
+2025-04-26 11:29:28,334 - ERROR - Error processing 1628386 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628386&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:29:28,514 - ERROR - Error processing 203937 with 1610612748: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203937&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:29:39,657 - INFO - Successfully saved data to data/2025ps/203937.csv
+2025-04-26 11:29:39,658 - INFO - Processing 1628384 - 1610612752 for 2025
+2025-04-26 11:29:48,266 - INFO - Successfully saved data to data/2025ps/1628386.csv
+2025-04-26 11:29:48,268 - INFO - Processing 1628963 - 1610612763 for 2025
+2025-04-26 11:29:55,419 - ERROR - Error processing 1628384 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628384&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:29:55,862 - INFO - Successfully saved data to data/2025ps/1628963.csv
+2025-04-26 11:29:55,863 - INFO - Processing 1631094 - 1610612753 for 2025
+2025-04-26 11:29:59,403 - ERROR - Error processing 1630175 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630175&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:30:02,780 - INFO - Successfully saved data to data/2025ps/1630175.csv
+2025-04-26 11:30:02,782 - INFO - Processing 1630217 - 1610612763 for 2025
+2025-04-26 11:30:07,413 - INFO - Successfully saved data to data/2025ps/1631094.csv
+2025-04-26 11:30:07,414 - INFO - Processing 201587 - 1610612746 for 2025
+2025-04-26 11:30:13,168 - ERROR - Error processing 1628384 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628384&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:30:23,469 - INFO - Successfully saved data to data/2025ps/1628384.csv
+2025-04-26 11:30:23,471 - INFO - Processing 1627736 - 1610612765 for 2025
+2025-04-26 11:30:27,374 - ERROR - Error processing 1630217 with 1610612763: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630217&TeamId=1610612763&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:30:32,196 - ERROR - Error processing 201587 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=201587&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:30:35,290 - INFO - Successfully saved data to data/2025ps/201587.csv
+2025-04-26 11:30:35,291 - INFO - Processing 1629048 - 1610612753 for 2025
+2025-04-26 11:30:44,188 - ERROR - Error processing 1627736 with 1610612765: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1627736&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:30:47,172 - ERROR - Error processing 1630217 with 1610612763: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630217&TeamId=1610612763&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:30:52,384 - INFO - Successfully saved data to data/2025ps/1630217.csv
+2025-04-26 11:30:56,315 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1627736&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:30:57,097 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1629048&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:31:07,429 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1627736&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:31:15,384 - ERROR - Error processing 1629048 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629048&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")). Retrying in 2s
+2025-04-26 11:31:19,012 - INFO - Successfully saved data to data/2025ps/1629048.csv
+2025-04-26 11:31:19,552 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1627736&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:31:20,705 - INFO - Successfully saved data to data/2025ps/1627736.csv
+2025-04-26 11:31:20,709 - INFO - Waiting before processing next chunk...
+2025-04-26 11:31:27,351 - INFO - Processing chunk 2/14 for 2025
+2025-04-26 11:31:27,354 - INFO - Processing 1641710 - 1610612753 for 2025
+2025-04-26 11:31:27,358 - INFO - Processing 203992 - 1610612746 for 2025
+2025-04-26 11:31:27,359 - INFO - Processing 1628396 - 1610612754 for 2025
+2025-04-26 11:31:30,003 - INFO - Successfully saved data to data/2025ps/1628396.csv
+2025-04-26 11:31:30,004 - INFO - Processing 1631128 - 1610612743 for 2025
+2025-04-26 11:31:30,851 - INFO - Successfully saved data to data/2025ps/1641710.csv
+2025-04-26 11:31:30,852 - INFO - Processing 1628969 - 1610612752 for 2025
+2025-04-26 11:31:40,481 - INFO - Successfully saved data to data/2025ps/1631128.csv
+2025-04-26 11:31:40,483 - INFO - Processing 1628415 - 1610612745 for 2025
+2025-04-26 11:31:43,979 - ERROR - Error processing 203992 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=203992&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:31:46,502 - ERROR - Error processing 1628969 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628969&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:31:47,055 - INFO - Successfully saved data to data/2025ps/203992.csv
+2025-04-26 11:31:47,056 - INFO - Processing 1627759 - 1610612738 for 2025
+2025-04-26 11:31:55,372 - INFO - Successfully saved data to data/2025ps/1628969.csv
+2025-04-26 11:31:55,373 - INFO - Processing 1641738 - 1610612746 for 2025
+2025-04-26 11:32:00,606 - INFO - Successfully saved data to data/2025ps/1628415.csv
+2025-04-26 11:32:00,608 - INFO - Processing 1628973 - 1610612752 for 2025
+2025-04-26 11:32:03,152 - ERROR - Error processing 1627759 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1627759&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:32:11,378 - INFO - Successfully saved data to data/2025ps/1627759.csv
+2025-04-26 11:32:11,379 - INFO - Processing 1628418 - 1610612754 for 2025
+2025-04-26 11:32:11,537 - ERROR - Error processing 1641738 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641738&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:32:19,140 - INFO - Successfully saved data to data/2025ps/1641738.csv
+2025-04-26 11:32:19,142 - INFO - Processing 202692 - 1610612748 for 2025
+2025-04-26 11:32:26,080 - ERROR - Error processing 1628973 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628973&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:32:26,732 - INFO - Successfully saved data to data/2025ps/202692.csv
+2025-04-26 11:32:26,735 - INFO - Processing 202710 - 1610612744 for 2025
+2025-04-26 11:32:27,110 - ERROR - Error processing 1628418 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628418&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:32:36,737 - INFO - Successfully saved data to data/2025ps/202710.csv
+2025-04-26 11:32:36,739 - INFO - Processing 203484 - 1610612753 for 2025
+2025-04-26 11:32:43,601 - ERROR - Error processing 1628973 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628973&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:32:44,880 - ERROR - Error processing 1628418 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628418&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:32:48,817 - INFO - Successfully saved data to data/2025ps/1628973.csv
+2025-04-26 11:32:48,821 - INFO - Processing 1628976 - 1610612753 for 2025
+2025-04-26 11:32:55,170 - INFO - Successfully saved data to data/2025ps/1628976.csv
+2025-04-26 11:32:55,172 - INFO - Processing 1627936 - 1610612760 for 2025
+2025-04-26 11:33:04,382 - ERROR - Error processing 1628418 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628418&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 8s
+2025-04-26 11:33:04,907 - INFO - Successfully saved data to data/2025ps/203484.csv
+2025-04-26 11:33:14,888 - INFO - Successfully saved data to data/2025ps/1628418.csv
+2025-04-26 11:33:26,614 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1627936&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:33:36,728 - ERROR - Error processing 1627936 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1627936&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")). Retrying in 2s
+2025-04-26 11:33:41,524 - INFO - Successfully saved data to data/2025ps/1627936.csv
+2025-04-26 11:33:41,526 - INFO - Waiting before processing next chunk...
+2025-04-26 11:33:47,285 - INFO - Processing chunk 3/14 for 2025
+2025-04-26 11:33:47,288 - INFO - Processing 1642353 - 1610612746 for 2025
+2025-04-26 11:33:47,291 - INFO - Processing 1641740 - 1610612750 for 2025
+2025-04-26 11:33:47,293 - INFO - Processing 201144 - 1610612750 for 2025
+2025-04-26 11:33:50,580 - INFO - Successfully saved data to data/2025ps/1642353.csv
+2025-04-26 11:33:50,581 - INFO - Processing 1626192 - 1610612749 for 2025
+2025-04-26 11:33:50,656 - INFO - Successfully saved data to data/2025ps/1641740.csv
+2025-04-26 11:33:50,658 - INFO - Processing 1628470 - 1610612738 for 2025
+2025-04-26 11:33:59,434 - INFO - Successfully saved data to data/2025ps/201144.csv
+2025-04-26 11:33:59,436 - INFO - Processing 1630595 - 1610612765 for 2025
+2025-04-26 11:34:07,934 - INFO - Successfully saved data to data/2025ps/1626192.csv
+2025-04-26 11:34:07,935 - INFO - Processing 201939 - 1610612744 for 2025
+2025-04-26 11:34:15,033 - ERROR - Error processing 1630595 with 1610612765: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630595&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:34:15,616 - INFO - Successfully saved data to data/2025ps/201939.csv
+2025-04-26 11:34:15,617 - INFO - Processing 1641783 - 1610612753 for 2025
+2025-04-26 11:34:20,438 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1628470&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:34:20,618 - ERROR - Error processing 1628470 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628470&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:34:23,766 - INFO - Successfully saved data to data/2025ps/1628470.csv
+2025-04-26 11:34:23,768 - INFO - Processing 1631120 - 1610612738 for 2025
+2025-04-26 11:34:28,271 - INFO - Successfully saved data to data/2025ps/1630595.csv
+2025-04-26 11:34:28,273 - INFO - Processing 1628978 - 1610612750 for 2025
+2025-04-26 11:34:31,528 - ERROR - Error processing 1641783 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641783&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:34:39,030 - INFO - Successfully saved data to data/2025ps/1641783.csv
+2025-04-26 11:34:39,032 - INFO - Processing 1629029 - 1610612747 for 2025
+2025-04-26 11:34:39,503 - ERROR - Error processing 1631120 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1631120&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:34:46,412 - ERROR - Error processing 1628978 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628978&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:34:47,647 - INFO - Successfully saved data to data/2025ps/1631120.csv
+2025-04-26 11:34:47,648 - INFO - Processing 1629652 - 1610612760 for 2025
+2025-04-26 11:34:54,853 - ERROR - Error processing 1629029 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629029&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:35:04,003 - INFO - Successfully saved data to data/2025ps/1629029.csv
+2025-04-26 11:35:04,004 - INFO - Processing 1627739 - 1610612746 for 2025
+2025-04-26 11:35:04,112 - ERROR - Error processing 1628978 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628978&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:35:08,114 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1629652&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:35:15,258 - INFO - Successfully saved data to data/2025ps/1627739.csv
+2025-04-26 11:35:15,262 - INFO - Processing 1631105 - 1610612765 for 2025
+2025-04-26 11:35:16,368 - ERROR - Error processing 1629652 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629652&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:35:20,034 - INFO - Successfully saved data to data/2025ps/1629652.csv
+2025-04-26 11:35:20,035 - INFO - Processing 1631106 - 1610612745 for 2025
+2025-04-26 11:35:21,444 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1628978&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:35:25,875 - INFO - Successfully saved data to data/2025ps/1628978.csv
+2025-04-26 11:35:31,272 - ERROR - Error processing 1631105 with 1610612765: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1631105&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:35:31,713 - INFO - Successfully saved data to data/2025ps/1631106.csv
+2025-04-26 11:35:39,570 - INFO - Successfully saved data to data/2025ps/1631105.csv
+2025-04-26 11:35:39,572 - INFO - Waiting before processing next chunk...
+2025-04-26 11:35:47,509 - INFO - Processing chunk 4/14 for 2025
+2025-04-26 11:35:47,510 - INFO - Processing 1641744 - 1610612763 for 2025
+2025-04-26 11:35:47,516 - INFO - Processing 1630162 - 1610612750 for 2025
+2025-04-26 11:35:47,530 - INFO - Processing 1629234 - 1610612746 for 2025
+2025-04-26 11:35:50,433 - INFO - Successfully saved data to data/2025ps/1641744.csv
+2025-04-26 11:35:50,434 - INFO - Processing 1627827 - 1610612747 for 2025
+2025-04-26 11:36:00,555 - INFO - Successfully saved data to data/2025ps/1627827.csv
+2025-04-26 11:36:00,556 - INFO - Processing 1642277 - 1610612754 for 2025
+2025-04-26 11:36:03,276 - ERROR - Error processing 1629234 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629234&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:36:04,880 - ERROR - Error processing 1630162 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630162&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:36:10,985 - INFO - Successfully saved data to data/2025ps/1629234.csv
+2025-04-26 11:36:10,987 - INFO - Processing 1629636 - 1610612739 for 2025
+2025-04-26 11:36:15,565 - INFO - Successfully saved data to data/2025ps/1630162.csv
+2025-04-26 11:36:15,569 - INFO - Processing 1630568 - 1610612750 for 2025
+2025-04-26 11:36:19,939 - INFO - Successfully saved data to data/2025ps/1642277.csv
+2025-04-26 11:36:19,944 - INFO - Processing 1628983 - 1610612760 for 2025
+2025-04-26 11:36:26,996 - ERROR - Error processing 1629636 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629636&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:36:27,448 - INFO - Successfully saved data to data/2025ps/1628983.csv
+2025-04-26 11:36:27,450 - INFO - Processing 203497 - 1610612750 for 2025
+2025-04-26 11:36:31,571 - ERROR - Error processing 1630568 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630568&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:36:40,128 - INFO - Successfully saved data to data/2025ps/1629636.csv
+2025-04-26 11:36:40,130 - INFO - Processing 1630692 - 1610612747 for 2025
+2025-04-26 11:36:43,309 - ERROR - Error processing 203497 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203497&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:36:43,709 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1630568&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:36:51,637 - INFO - Successfully saved data to data/2025ps/203497.csv
+2025-04-26 11:36:51,639 - INFO - Processing 203932 - 1610612743 for 2025
+2025-04-26 11:36:58,728 - INFO - Successfully saved data to data/2025ps/203932.csv
+2025-04-26 11:36:58,730 - INFO - Processing 1631260 - 1610612749 for 2025
+2025-04-26 11:36:59,124 - ERROR - Error processing 1630692 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630692&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:36:59,428 - ERROR - Error processing 1630568 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630568&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:37:03,527 - INFO - Successfully saved data to data/2025ps/1630692.csv
+2025-04-26 11:37:03,528 - INFO - Processing 203110 - 1610612744 for 2025
+2025-04-26 11:37:15,097 - INFO - Successfully saved data to data/2025ps/1630568.csv
+2025-04-26 11:37:15,099 - INFO - Processing 1630224 - 1610612745 for 2025
+2025-04-26 11:37:19,169 - ERROR - Error processing 203110 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203110&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:37:24,351 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1631260&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:37:24,516 - ERROR - Error processing 1631260 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1631260&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:37:32,211 - INFO - Successfully saved data to data/2025ps/1631260.csv
+2025-04-26 11:37:32,212 - INFO - Processing 1629750 - 1610612739 for 2025
+2025-04-26 11:37:35,266 - ERROR - Error processing 1630224 with 1610612745: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630224&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:37:38,950 - INFO - Successfully saved data to data/2025ps/1630224.csv
+2025-04-26 11:37:39,085 - ERROR - Error processing 203110 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=203110&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:37:43,299 - INFO - Successfully saved data to data/2025ps/1629750.csv
+2025-04-26 11:37:49,568 - INFO - Successfully saved data to data/2025ps/203110.csv
+2025-04-26 11:37:49,571 - INFO - Waiting before processing next chunk...
+2025-04-26 11:37:54,894 - INFO - Processing chunk 5/14 for 2025
+2025-04-26 11:37:54,896 - INFO - Processing 201145 - 1610612745 for 2025
+2025-04-26 11:37:54,898 - INFO - Processing 1629060 - 1610612747 for 2025
+2025-04-26 11:37:54,899 - INFO - Processing 1630169 - 1610612754 for 2025
+2025-04-26 11:37:58,907 - INFO - Successfully saved data to data/2025ps/201145.csv
+2025-04-26 11:37:58,908 - INFO - Processing 203501 - 1610612765 for 2025
+2025-04-26 11:38:10,990 - INFO - Successfully saved data to data/2025ps/203501.csv
+2025-04-26 11:38:10,991 - INFO - Processing 201935 - 1610612746 for 2025
+2025-04-26 11:38:12,293 - ERROR - Error processing 1629060 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629060&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:38:15,468 - INFO - Successfully saved data to data/2025ps/1629060.csv
+2025-04-26 11:38:15,470 - INFO - Processing 203914 - 1610612753 for 2025
+2025-04-26 11:38:19,285 - ERROR - Error processing 1630169 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630169&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:38:22,536 - INFO - Successfully saved data to data/2025ps/1630169.csv
+2025-04-26 11:38:22,537 - INFO - Processing 202699 - 1610612765 for 2025
+2025-04-26 11:38:30,950 - ERROR - Error processing 203914 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203914&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:38:31,689 - INFO - Successfully saved data to data/2025ps/202699.csv
+2025-04-26 11:38:31,690 - INFO - Processing 1628404 - 1610612752 for 2025
+2025-04-26 11:38:35,280 - ERROR - Error processing 201935 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=201935&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:38:38,778 - INFO - Successfully saved data to data/2025ps/201935.csv
+2025-04-26 11:38:38,779 - INFO - Processing 1628392 - 1610612760 for 2025
+2025-04-26 11:38:47,566 - ERROR - Error processing 1628404 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628404&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:38:51,242 - ERROR - Error processing 203914 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=203914&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:38:54,580 - INFO - Successfully saved data to data/2025ps/203914.csv
+2025-04-26 11:38:54,581 - INFO - Processing 1630573 - 1610612738 for 2025
+2025-04-26 11:39:01,091 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1628392&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:39:04,205 - INFO - Successfully saved data to data/2025ps/1630573.csv
+2025-04-26 11:39:04,207 - INFO - Processing 1629637 - 1610612747 for 2025
+2025-04-26 11:39:06,453 - ERROR - Error processing 1628404 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628404&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:39:11,381 - ERROR - Error processing 1628392 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628392&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 500 error responses')). Retrying in 2s
+2025-04-26 11:39:15,314 - INFO - Successfully saved data to data/2025ps/1628392.csv
+2025-04-26 11:39:15,316 - INFO - Processing 1629639 - 1610612748 for 2025
+2025-04-26 11:39:22,429 - INFO - Successfully saved data to data/2025ps/1629639.csv
+2025-04-26 11:39:22,431 - INFO - Processing 1627741 - 1610612744 for 2025
+2025-04-26 11:39:23,875 - ERROR - Error processing 1628404 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628404&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:39:29,233 - ERROR - Error processing 1629637 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629637&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:39:32,256 - INFO - Successfully saved data to data/2025ps/1627741.csv
+2025-04-26 11:39:32,262 - INFO - Processing 1629312 - 1610612748 for 2025
+2025-04-26 11:39:39,846 - INFO - Successfully saved data to data/2025ps/1629312.csv
+2025-04-26 11:39:39,847 - INFO - Processing 1628988 - 1610612745 for 2025
+2025-04-26 11:39:43,404 - ERROR - Error processing 1628404 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628404&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 8s
+2025-04-26 11:39:46,525 - INFO - Successfully saved data to data/2025ps/1628988.csv
+2025-04-26 11:39:46,793 - ERROR - Error processing 1629637 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629637&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:39:56,185 - INFO - Successfully saved data to data/2025ps/1628404.csv
+2025-04-26 11:39:57,345 - INFO - Successfully saved data to data/2025ps/1629637.csv
+2025-04-26 11:39:57,347 - INFO - Waiting before processing next chunk...
+2025-04-26 11:40:02,364 - INFO - Processing chunk 6/14 for 2025
+2025-04-26 11:40:02,366 - INFO - Processing 201950 - 1610612738 for 2025
+2025-04-26 11:40:02,367 - INFO - Processing 1641842 - 1610612765 for 2025
+2025-04-26 11:40:02,369 - INFO - Processing 1631096 - 1610612760 for 2025
+2025-04-26 11:40:06,561 - INFO - Successfully saved data to data/2025ps/1641842.csv
+2025-04-26 11:40:06,562 - INFO - Processing 201143 - 1610612738 for 2025
+2025-04-26 11:40:15,850 - INFO - Successfully saved data to data/2025ps/201143.csv
+2025-04-26 11:40:15,851 - INFO - Processing 1631216 - 1610612753 for 2025
+2025-04-26 11:40:18,298 - ERROR - Error processing 201950 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=201950&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:40:20,025 - ERROR - Error processing 1631096 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631096&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:40:31,509 - INFO - Successfully saved data to data/2025ps/201950.csv
+2025-04-26 11:40:31,510 - INFO - Processing 1630643 - 1610612763 for 2025
+2025-04-26 11:40:34,374 - ERROR - Error processing 1631216 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631216&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:40:38,673 - INFO - Successfully saved data to data/2025ps/1631216.csv
+2025-04-26 11:40:38,674 - INFO - Processing 1629631 - 1610612739 for 2025
+2025-04-26 11:40:47,225 - ERROR - Error processing 1630643 with 1610612763: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630643&TeamId=1610612763&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:40:48,009 - INFO - Successfully saved data to data/2025ps/1629631.csv
+2025-04-26 11:40:48,011 - INFO - Processing 1628371 - 1610612753 for 2025
+2025-04-26 11:40:51,532 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1631096&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:40:51,684 - ERROR - Error processing 1631096 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631096&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:40:55,477 - INFO - Successfully saved data to data/2025ps/1630643.csv
+2025-04-26 11:40:55,479 - INFO - Processing 1641748 - 1610612749 for 2025
+2025-04-26 11:41:03,261 - INFO - Successfully saved data to data/2025ps/1641748.csv
+2025-04-26 11:41:03,262 - INFO - Processing 1628991 - 1610612763 for 2025
+2025-04-26 11:41:04,102 - ERROR - Error processing 1628371 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628371&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:41:11,360 - ERROR - Error processing 1631096 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631096&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 8s
+2025-04-26 11:41:14,865 - INFO - Successfully saved data to data/2025ps/1628991.csv
+2025-04-26 11:41:14,866 - INFO - Processing 1631218 - 1610612744 for 2025
+2025-04-26 11:41:23,280 - ERROR - Error processing 1628371 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1628371&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:41:26,568 - INFO - Successfully saved data to data/2025ps/1628371.csv
+2025-04-26 11:41:26,569 - INFO - Processing 1642355 - 1610612747 for 2025
+2025-04-26 11:41:35,088 - ERROR - Error processing 1631218 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631218&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:41:35,614 - INFO - Successfully saved data to data/2025ps/1642355.csv
+2025-04-26 11:41:35,617 - INFO - Processing 2544 - 1610612747 for 2025
+2025-04-26 11:41:36,654 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1631096&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:41:39,900 - INFO - Successfully saved data to data/2025ps/1631218.csv
+2025-04-26 11:41:39,902 - INFO - Processing 1631170 - 1610612748 for 2025
+2025-04-26 11:41:44,999 - ERROR - Error processing 1631096 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631096&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 16s
+2025-04-26 11:41:53,454 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1631170&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:41:54,388 - INFO - Successfully saved data to data/2025ps/2544.csv
+2025-04-26 11:41:54,390 - INFO - Processing 1629660 - 1610612739 for 2025
+2025-04-26 11:42:03,533 - INFO - Successfully saved data to data/2025ps/1631096.csv
+2025-04-26 11:42:10,684 - INFO - Successfully saved data to data/2025ps/1631170.csv
+2025-04-26 11:42:15,876 - INFO - Successfully saved data to data/2025ps/1629660.csv
+2025-04-26 11:42:15,883 - INFO - Waiting before processing next chunk...
+2025-04-26 11:42:21,230 - INFO - Processing chunk 7/14 for 2025
+2025-04-26 11:42:21,231 - INFO - Processing 1630198 - 1610612760 for 2025
+2025-04-26 11:42:21,232 - INFO - Processing 1642352 - 1610612748 for 2025
+2025-04-26 11:42:21,234 - INFO - Processing 203999 - 1610612743 for 2025
+2025-04-26 11:42:31,367 - INFO - Successfully saved data to data/2025ps/203999.csv
+2025-04-26 11:42:31,369 - INFO - Processing 1627884 - 1610612746 for 2025
+2025-04-26 11:42:31,482 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1630198&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:42:42,638 - INFO - Successfully saved data to data/2025ps/1627884.csv
+2025-04-26 11:42:42,639 - INFO - Processing 1641794 - 1610612760 for 2025
+2025-04-26 11:42:47,481 - ERROR - Error processing 1642352 with 1610612748: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1642352&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:42:48,825 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1630198&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:42:50,780 - INFO - Successfully saved data to data/2025ps/1642352.csv
+2025-04-26 11:42:50,781 - INFO - Processing 201599 - 1610612743 for 2025
+2025-04-26 11:42:57,057 - ERROR - Error processing 1630198 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630198&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:43:00,356 - INFO - Successfully saved data to data/2025ps/201599.csv
+2025-04-26 11:43:00,358 - INFO - Processing 202709 - 1610612753 for 2025
+2025-04-26 11:43:03,018 - ERROR - Error processing 1641794 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1641794&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:43:07,732 - INFO - Successfully saved data to data/2025ps/1641794.csv
+2025-04-26 11:43:07,734 - INFO - Processing 1631107 - 1610612748 for 2025
+2025-04-26 11:43:14,618 - ERROR - Error processing 1630198 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630198&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:43:16,114 - INFO - Successfully saved data to data/2025ps/1631107.csv
+2025-04-26 11:43:16,116 - INFO - Processing 1628379 - 1610612763 for 2025
+2025-04-26 11:43:19,095 - ERROR - Error processing 202709 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=202709&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:43:23,150 - INFO - Successfully saved data to data/2025ps/1628379.csv
+2025-04-26 11:43:23,151 - INFO - Processing 1630296 - 1610612744 for 2025
+2025-04-26 11:43:32,480 - INFO - Successfully saved data to data/2025ps/1630198.csv
+2025-04-26 11:43:32,482 - INFO - Processing 1642261 - 1610612747 for 2025
+2025-04-26 11:43:36,811 - ERROR - Error processing 202709 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=202709&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:43:42,568 - INFO - Successfully saved data to data/2025ps/1630296.csv
+2025-04-26 11:43:42,569 - INFO - Processing 1628995 - 1610612744 for 2025
+2025-04-26 11:43:46,390 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1642261&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:43:56,130 - INFO - Successfully saved data to data/2025ps/1628995.csv
+2025-04-26 11:43:56,132 - INFO - Processing 1629723 - 1610612763 for 2025
+2025-04-26 11:43:56,236 - ERROR - Error processing 202709 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=202709&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 8s
+2025-04-26 11:44:06,396 - INFO - Successfully saved data to data/2025ps/202709.csv
+2025-04-26 11:44:06,397 - INFO - Processing 1628436 - 1610612738 for 2025
+2025-04-26 11:44:14,993 - ERROR - Error processing 1629723 with 1610612763: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629723&TeamId=1610612763&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:44:16,047 - INFO - Successfully saved data to data/2025ps/1628436.csv
+2025-04-26 11:44:16,048 - INFO - Processing 1630228 - 1610612744 for 2025
+2025-04-26 11:44:20,626 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1642261&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:44:20,788 - ERROR - Error processing 1642261 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1642261&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:44:24,036 - INFO - Successfully saved data to data/2025ps/1630228.csv
+2025-04-26 11:44:27,776 - INFO - Successfully saved data to data/2025ps/1642261.csv
+2025-04-26 11:44:33,907 - INFO - Successfully saved data to data/2025ps/1629723.csv
+2025-04-26 11:44:33,909 - INFO - Waiting before processing next chunk...
+2025-04-26 11:44:40,647 - INFO - Processing chunk 8/14 for 2025
+2025-04-26 11:44:40,650 - INFO - Processing 1628398 - 1610612749 for 2025
+2025-04-26 11:44:40,654 - INFO - Processing 1641796 - 1610612748 for 2025
+2025-04-26 11:44:40,656 - INFO - Processing 203458 - 1610612747 for 2025
+2025-04-26 11:44:51,164 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=203458&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:44:51,443 - INFO - Successfully saved data to data/2025ps/1628398.csv
+2025-04-26 11:44:51,444 - INFO - Processing 202695 - 1610612746 for 2025
+2025-04-26 11:44:54,066 - INFO - Successfully saved data to data/2025ps/1641796.csv
+2025-04-26 11:44:54,067 - INFO - Processing 203081 - 1610612749 for 2025
+2025-04-26 11:45:03,988 - INFO - Successfully saved data to data/2025ps/203458.csv
+2025-04-26 11:45:03,990 - INFO - Processing 1641753 - 1610612749 for 2025
+2025-04-26 11:45:07,630 - ERROR - Error processing 202695 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=202695&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:45:11,281 - INFO - Successfully saved data to data/2025ps/1641753.csv
+2025-04-26 11:45:11,283 - INFO - Processing 1626172 - 1610612744 for 2025
+2025-04-26 11:45:11,969 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=203081&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:45:20,297 - ERROR - Error processing 203081 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203081&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:45:20,757 - INFO - Successfully saved data to data/2025ps/1626172.csv
+2025-04-26 11:45:20,758 - INFO - Processing 201572 - 1610612749 for 2025
+2025-04-26 11:45:25,327 - ERROR - Error processing 202695 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=202695&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:45:34,823 - INFO - Successfully saved data to data/2025ps/202695.csv
+2025-04-26 11:45:34,824 - INFO - Processing 1631097 - 1610612754 for 2025
+2025-04-26 11:45:38,326 - ERROR - Error processing 201572 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=201572&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:45:39,560 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=203081&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:45:42,924 - INFO - Successfully saved data to data/2025ps/201572.csv
+2025-04-26 11:45:42,926 - INFO - Processing 1630540 - 1610612752 for 2025
+2025-04-26 11:45:47,790 - ERROR - Error processing 203081 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203081&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:45:52,478 - INFO - Successfully saved data to data/2025ps/1630540.csv
+2025-04-26 11:45:52,483 - INFO - Processing 204456 - 1610612754 for 2025
+2025-04-26 11:45:54,792 - ERROR - Error processing 1631097 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631097&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:45:59,595 - INFO - Successfully saved data to data/2025ps/1631097.csv
+2025-04-26 11:45:59,598 - INFO - Processing 1630183 - 1610612750 for 2025
+2025-04-26 11:46:04,326 - INFO - Successfully saved data to data/2025ps/204456.csv
+2025-04-26 11:46:04,327 - INFO - Processing 1630241 - 1610612739 for 2025
+2025-04-26 11:46:07,341 - ERROR - Error processing 203081 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203081&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 8s
+2025-04-26 11:46:12,143 - INFO - Successfully saved data to data/2025ps/1630241.csv
+2025-04-26 11:46:12,144 - INFO - Processing 1641757 - 1610612746 for 2025
+2025-04-26 11:46:15,520 - ERROR - Error processing 1630183 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630183&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:46:23,341 - INFO - Successfully saved data to data/2025ps/1641757.csv
+2025-04-26 11:46:23,342 - INFO - Processing 1631159 - 1610612750 for 2025
+2025-04-26 11:46:27,221 - INFO - Successfully saved data to data/2025ps/1630183.csv
+2025-04-26 11:46:36,657 - INFO - Successfully saved data to data/2025ps/203081.csv
+2025-04-26 11:46:57,056 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1631159&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:47:19,449 - INFO - Successfully saved data to data/2025ps/1631159.csv
+2025-04-26 11:47:19,453 - INFO - Waiting before processing next chunk...
+2025-04-26 11:47:25,703 - INFO - Processing chunk 9/14 for 2025
+2025-04-26 11:47:25,709 - INFO - Processing 201988 - 1610612746 for 2025
+2025-04-26 11:47:25,712 - INFO - Processing 1629003 - 1610612747 for 2025
+2025-04-26 11:47:25,714 - INFO - Processing 1631169 - 1610612750 for 2025
+2025-04-26 11:47:28,763 - INFO - Successfully saved data to data/2025ps/1629003.csv
+2025-04-26 11:47:28,765 - INFO - Processing 1642349 - 1610612760 for 2025
+2025-04-26 11:47:29,181 - INFO - Successfully saved data to data/2025ps/1631169.csv
+2025-04-26 11:47:29,182 - INFO - Processing 1630558 - 1610612748 for 2025
+2025-04-26 11:47:29,459 - INFO - Successfully saved data to data/2025ps/201988.csv
+2025-04-26 11:47:29,461 - INFO - Processing 1628378 - 1610612739 for 2025
+2025-04-26 11:47:39,726 - INFO - Successfully saved data to data/2025ps/1642349.csv
+2025-04-26 11:47:39,728 - INFO - Processing 1630596 - 1610612739 for 2025
+2025-04-26 11:47:40,051 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1628378&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:47:45,199 - ERROR - Error processing 1630558 with 1610612748: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630558&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:47:47,357 - INFO - Successfully saved data to data/2025ps/1630596.csv
+2025-04-26 11:47:47,358 - INFO - Processing 1630541 - 1610612744 for 2025
+2025-04-26 11:47:55,476 - ERROR - Error processing 1628378 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628378&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:47:56,055 - INFO - Successfully saved data to data/2025ps/1630558.csv
+2025-04-26 11:47:56,058 - INFO - Processing 1629630 - 1610612763 for 2025
+2025-04-26 11:48:03,208 - ERROR - Error processing 1630541 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630541&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:48:03,975 - INFO - Successfully saved data to data/2025ps/1629630.csv
+2025-04-26 11:48:03,976 - INFO - Processing 1627750 - 1610612743 for 2025
+2025-04-26 11:48:12,355 - INFO - Successfully saved data to data/2025ps/1630541.csv
+2025-04-26 11:48:12,361 - INFO - Processing 1629614 - 1610612754 for 2025
+2025-04-26 11:48:13,310 - ERROR - Error processing 1628378 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628378&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:48:19,787 - ERROR - Error processing 1627750 with 1610612743: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1627750&TeamId=1610612743&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:48:28,401 - INFO - Successfully saved data to data/2025ps/1628378.csv
+2025-04-26 11:48:28,402 - INFO - Processing 1630174 - 1610612754 for 2025
+2025-04-26 11:48:32,388 - INFO - Successfully saved data to data/2025ps/1629614.csv
+2025-04-26 11:48:32,390 - INFO - Processing 1630192 - 1610612743 for 2025
+2025-04-26 11:48:39,564 - INFO - Successfully saved data to data/2025ps/1630192.csv
+2025-04-26 11:48:39,565 - INFO - Processing 1629643 - 1610612739 for 2025
+2025-04-26 11:48:39,615 - ERROR - Error processing 1627750 with 1610612743: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1627750&TeamId=1610612743&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:48:44,158 - ERROR - Error processing 1630174 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630174&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:48:44,290 - INFO - Successfully saved data to data/2025ps/1627750.csv
+2025-04-26 11:48:44,292 - INFO - Processing 1630171 - 1610612739 for 2025
+2025-04-26 11:48:52,447 - INFO - Successfully saved data to data/2025ps/1630174.csv
+2025-04-26 11:48:59,151 - INFO - Successfully saved data to data/2025ps/1629643.csv
+2025-04-26 11:48:59,871 - ERROR - Error processing 1630171 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630171&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:49:11,890 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1630171&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:49:23,027 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1630171&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:49:33,519 - INFO - Successfully saved data to data/2025ps/1630171.csv
+2025-04-26 11:49:33,521 - INFO - Waiting before processing next chunk...
+2025-04-26 11:49:41,258 - INFO - Processing chunk 10/14 for 2025
+2025-04-26 11:49:41,265 - INFO - Processing 1626166 - 1610612752 for 2025
+2025-04-26 11:49:41,272 - INFO - Processing 1627780 - 1610612744 for 2025
+2025-04-26 11:49:41,288 - INFO - Processing 1629618 - 1610612743 for 2025
+2025-04-26 11:49:44,315 - INFO - Successfully saved data to data/2025ps/1626166.csv
+2025-04-26 11:49:44,317 - INFO - Processing 1630590 - 1610612763 for 2025
+2025-04-26 11:49:45,332 - INFO - Successfully saved data to data/2025ps/1627780.csv
+2025-04-26 11:49:45,334 - INFO - Processing 1641764 - 1610612744 for 2025
+2025-04-26 11:49:52,038 - INFO - Successfully saved data to data/2025ps/1630590.csv
+2025-04-26 11:49:52,039 - INFO - Processing 1641854 - 1610612739 for 2025
+2025-04-26 11:49:52,960 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1629618&TeamId=1610612743&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:49:56,665 - INFO - Successfully saved data to data/2025ps/1629618.csv
+2025-04-26 11:49:56,666 - INFO - Processing 1629645 - 1610612749 for 2025
+2025-04-26 11:50:01,174 - ERROR - Error processing 1641764 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641764&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:50:04,272 - INFO - Successfully saved data to data/2025ps/1629645.csv
+2025-04-26 11:50:04,272 - INFO - Processing 1629008 - 1610612743 for 2025
+2025-04-26 11:50:07,768 - ERROR - Error processing 1641854 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641854&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:50:12,020 - INFO - Successfully saved data to data/2025ps/1629008.csv
+2025-04-26 11:50:12,022 - INFO - Processing 1626171 - 1610612749 for 2025
+2025-04-26 11:50:18,956 - ERROR - Error processing 1641764 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641764&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:50:19,407 - INFO - Successfully saved data to data/2025ps/1626171.csv
+2025-04-26 11:50:19,411 - INFO - Processing 204001 - 1610612738 for 2025
+2025-04-26 11:50:25,535 - ERROR - Error processing 1641854 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641854&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:50:36,829 - INFO - Successfully saved data to data/2025ps/204001.csv
+2025-04-26 11:50:36,830 - INFO - Processing 1642366 - 1610612744 for 2025
+2025-04-26 11:50:39,986 - ERROR - Error processing 1641764 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1641764&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:50:43,411 - INFO - Successfully saved data to data/2025ps/1641764.csv
+2025-04-26 11:50:43,412 - INFO - Processing 1626181 - 1610612746 for 2025
+2025-04-26 11:50:47,920 - ERROR - Error processing 1641854 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1641854&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:50:49,062 - INFO - Successfully saved data to data/2025ps/1642366.csv
+2025-04-26 11:50:49,063 - INFO - Processing 1627752 - 1610612749 for 2025
+2025-04-26 11:50:51,326 - INFO - Successfully saved data to data/2025ps/1641854.csv
+2025-04-26 11:50:51,327 - INFO - Processing 1630202 - 1610612738 for 2025
+2025-04-26 11:50:59,855 - ERROR - Error processing 1626181 with 1610612746: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1626181&TeamId=1610612746&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:51:00,230 - INFO - Successfully saved data to data/2025ps/1630202.csv
+2025-04-26 11:51:00,232 - INFO - Processing 203944 - 1610612750 for 2025
+2025-04-26 11:51:04,922 - ERROR - Error processing 1627752 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1627752&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:51:08,299 - INFO - Successfully saved data to data/2025ps/1626181.csv
+2025-04-26 11:51:15,895 - INFO - Successfully saved data to data/2025ps/1627752.csv
+2025-04-26 11:51:16,376 - ERROR - Error processing 203944 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=203944&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:51:24,676 - INFO - Successfully saved data to data/2025ps/203944.csv
+2025-04-26 11:51:24,679 - INFO - Waiting before processing next chunk...
+2025-04-26 11:51:30,578 - INFO - Processing chunk 11/14 for 2025
+2025-04-26 11:51:30,580 - INFO - Processing 1630559 - 1610612747 for 2025
+2025-04-26 11:51:30,583 - INFO - Processing 1630194 - 1610612765 for 2025
+2025-04-26 11:51:30,586 - INFO - Processing 1629675 - 1610612750 for 2025
+2025-04-26 11:51:39,976 - INFO - Successfully saved data to data/2025ps/1630559.csv
+2025-04-26 11:51:39,978 - INFO - Processing 1629130 - 1610612748 for 2025
+2025-04-26 11:51:47,724 - ERROR - Error processing 1630194 with 1610612765: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630194&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:51:51,053 - INFO - Successfully saved data to data/2025ps/1630194.csv
+2025-04-26 11:51:51,054 - INFO - Processing 1629011 - 1610612752 for 2025
+2025-04-26 11:51:57,909 - INFO - Successfully saved data to data/2025ps/1629675.csv
+2025-04-26 11:51:57,911 - INFO - Processing 1631157 - 1610612749 for 2025
+2025-04-26 11:52:00,067 - ERROR - Error processing 1629130 with 1610612748: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629130&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:52:03,337 - INFO - Successfully saved data to data/2025ps/1629130.csv
+2025-04-26 11:52:03,338 - INFO - Processing 1630611 - 1610612744 for 2025
+2025-04-26 11:52:11,278 - ERROR - Error processing 1629011 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629011&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:52:14,991 - ERROR - Error processing 1631157 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631157&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:52:15,623 - INFO - Successfully saved data to data/2025ps/1629011.csv
+2025-04-26 11:52:15,625 - INFO - Processing 203471 - 1610612765 for 2025
+2025-04-26 11:52:25,198 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1630611&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:52:28,201 - INFO - Successfully saved data to data/2025ps/203471.csv
+2025-04-26 11:52:28,203 - INFO - Processing 1630578 - 1610612745 for 2025
+2025-04-26 11:52:30,380 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1631157&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:52:33,450 - ERROR - Error processing 1630611 with 1610612744: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630611&TeamId=1610612744&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:52:36,773 - INFO - Successfully saved data to data/2025ps/1630611.csv
+2025-04-26 11:52:36,774 - INFO - Processing 1629013 - 1610612752 for 2025
+2025-04-26 11:52:44,508 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1631157&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:52:47,563 - INFO - Successfully saved data to data/2025ps/1630578.csv
+2025-04-26 11:52:47,565 - INFO - Processing 1630545 - 1610612750 for 2025
+2025-04-26 11:52:50,058 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1629013&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:52:52,730 - ERROR - Error processing 1631157 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631157&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:52:59,332 - INFO - Successfully saved data to data/2025ps/1631157.csv
+2025-04-26 11:52:59,335 - INFO - Processing 1641767 - 1610612754 for 2025
+2025-04-26 11:53:04,188 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1629013&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:53:08,878 - INFO - Successfully saved data to data/2025ps/1641767.csv
+2025-04-26 11:53:08,880 - INFO - Processing 1642263 - 1610612745 for 2025
+2025-04-26 11:53:11,518 - ERROR - Error processing 1630545 with 1610612750: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630545&TeamId=1610612750&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:53:12,413 - ERROR - Error processing 1629013 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629013&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:53:20,326 - INFO - Successfully saved data to data/2025ps/1642263.csv
+2025-04-26 11:53:20,333 - INFO - Processing 1627783 - 1610612754 for 2025
+2025-04-26 11:53:31,393 - INFO - Successfully saved data to data/2025ps/1630545.csv
+2025-04-26 11:53:31,395 - INFO - Processing 1627732 - 1610612746 for 2025
+2025-04-26 11:53:32,810 - INFO - Successfully saved data to data/2025ps/1629013.csv
+2025-04-26 11:53:33,898 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1627783&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:53:43,621 - INFO - Successfully saved data to data/2025ps/1627732.csv
+2025-04-26 11:53:48,023 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1627783&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:53:53,633 - INFO - Successfully saved data to data/2025ps/1627783.csv
+2025-04-26 11:53:53,646 - INFO - Waiting before processing next chunk...
+2025-04-26 11:53:59,065 - INFO - Processing chunk 12/14 for 2025
+2025-04-26 11:53:59,067 - INFO - Processing 1630579 - 1610612749 for 2025
+2025-04-26 11:53:59,071 - INFO - Processing 1631095 - 1610612745 for 2025
+2025-04-26 11:53:59,073 - INFO - Processing 1630311 - 1610612744 for 2025
+2025-04-26 11:54:03,472 - INFO - Successfully saved data to data/2025ps/1631095.csv
+2025-04-26 11:54:03,473 - INFO - Processing 1630205 - 1610612763 for 2025
+2025-04-26 11:54:11,315 - INFO - Successfully saved data to data/2025ps/1630311.csv
+2025-04-26 11:54:11,316 - INFO - Processing 1630191 - 1610612765 for 2025
+2025-04-26 11:54:16,619 - ERROR - Error processing 1630579 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630579&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:54:21,147 - INFO - Processing postseason 2025
+2025-04-26 11:54:21,918 - INFO - Processing 35 player-team combinations for 2025 playoffs
+2025-04-26 11:54:21,919 - INFO - Processing chunk 1/3 for 2025
+2025-04-26 11:54:21,922 - INFO - Processing 1630579 - 1610612749 for 2025
+2025-04-26 11:54:21,925 - INFO - Processing 1630205 - 1610612763 for 2025
+2025-04-26 11:54:21,926 - INFO - Processing 1630191 - 1610612765 for 2025
+2025-04-26 11:54:28,230 - INFO - Successfully saved data to data/2025ps/1630205.csv
+2025-04-26 11:54:28,232 - INFO - Processing 1631124 - 1610612743 for 2025
+2025-04-26 11:54:32,536 - INFO - Successfully saved data to data/2025ps/1630191.csv
+2025-04-26 11:54:32,537 - INFO - Processing 1629622 - 1610612739 for 2025
+2025-04-26 11:54:37,903 - ERROR - Error processing 1630579 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630579&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:54:39,586 - INFO - Successfully saved data to data/2025ps/1631124.csv
+2025-04-26 11:54:39,588 - INFO - Processing 1628369 - 1610612738 for 2025
+2025-04-26 11:54:48,090 - ERROR - Error processing 1629622 with 1610612739: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629622&TeamId=1610612739&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:54:55,999 - INFO - Successfully saved data to data/2025ps/1629622.csv
+2025-04-26 11:54:56,002 - INFO - Processing 1641708 - 1610612745 for 2025
+2025-04-26 11:54:57,145 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1628369&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:55:03,553 - ERROR - Error processing 1630579 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630579&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:55:04,058 - INFO - Successfully saved data to data/2025ps/1641708.csv
+2025-04-26 11:55:04,060 - INFO - Processing 1641709 - 1610612765 for 2025
+2025-04-26 11:55:05,359 - ERROR - Error processing 1628369 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628369&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:55:08,015 - INFO - Successfully saved data to data/2025ps/1630579.csv
+2025-04-26 11:55:08,017 - INFO - Processing 1630167 - 1610612754 for 2025
+2025-04-26 11:55:15,989 - INFO - Successfully saved data to data/2025ps/1628369.csv
+2025-04-26 11:55:15,991 - INFO - Processing 1626157 - 1610612752 for 2025
+2025-04-26 11:55:19,749 - ERROR - Error processing 1641709 with 1610612765: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641709&TeamId=1610612765&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:55:23,542 - ERROR - Error processing 1630167 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630167&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:55:32,161 - INFO - Successfully saved data to data/2025ps/1641709.csv
+2025-04-26 11:55:32,162 - INFO - Processing 1629018 - 1610612749 for 2025
+2025-04-26 11:55:36,209 - ERROR - Error processing 1626157 with 1610612752: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1626157&TeamId=1610612752&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:55:39,681 - INFO - Successfully saved data to data/2025ps/1626157.csv
+2025-04-26 11:55:39,682 - INFO - Processing 1626167 - 1610612754 for 2025
+2025-04-26 11:55:43,585 - ERROR - Error processing 1630167 with 1610612754: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1630167&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:55:48,181 - INFO - Successfully saved data to data/2025ps/1630167.csv
+2025-04-26 11:55:48,183 - INFO - Processing 1641816 - 1610612743 for 2025
+2025-04-26 11:56:01,353 - INFO - Successfully saved data to data/2025ps/1626167.csv
+2025-04-26 11:56:01,355 - INFO - Processing 1642281 - 1610612739 for 2025
+2025-04-26 11:56:06,201 - ERROR - Error processing 1629018 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629018&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")). Retrying in 2s
+2025-04-26 11:56:09,293 - INFO - Successfully saved data to data/2025ps/1642281.csv
+2025-04-26 11:56:09,294 - INFO - Processing 1629020 - 1610612747 for 2025
+2025-04-26 11:56:16,178 - INFO - Processing postseason 2025
+2025-04-26 11:56:16,737 - INFO - Processing 23 player-team combinations for 2025 playoffs
+2025-04-26 11:56:16,738 - INFO - Processing chunk 1/2 for 2025
+2025-04-26 11:56:16,739 - INFO - Processing 1629018 - 1610612749 for 2025
+2025-04-26 11:56:16,740 - INFO - Processing 1641816 - 1610612743 for 2025
+2025-04-26 11:56:16,741 - INFO - Processing 1629020 - 1610612747 for 2025
+2025-04-26 11:56:24,603 - INFO - Successfully saved data to data/2025ps/1629020.csv
+2025-04-26 11:56:24,605 - INFO - Processing 1627832 - 1610612745 for 2025
+2025-04-26 11:56:27,517 - INFO - Successfully saved data to data/2025ps/1641816.csv
+2025-04-26 11:56:27,519 - INFO - Processing 1629216 - 1610612747 for 2025
+2025-04-26 11:56:32,730 - ERROR - Error processing 1629018 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1629018&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:56:40,500 - ERROR - Error processing 1627832 with 1610612745: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1627832&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:56:48,822 - INFO - Successfully saved data to data/2025ps/1627832.csv
+2025-04-26 11:56:48,824 - INFO - Processing 1629731 - 1610612739 for 2025
+2025-04-26 11:56:52,123 - ERROR - Error processing 1629018 with 1610612749: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629018&TeamId=1610612749&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:56:55,551 - INFO - Successfully saved data to data/2025ps/1629018.csv
+2025-04-26 11:56:55,553 - INFO - Processing 1630532 - 1610612753 for 2025
+2025-04-26 11:56:57,636 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1629216&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:56:57,799 - ERROR - Error processing 1629216 with 1610612747: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1629216&TeamId=1610612747&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:56:59,763 - INFO - Successfully saved data to data/2025ps/1629731.csv
+2025-04-26 11:56:59,765 - INFO - Processing 1641716 - 1610612754 for 2025
+2025-04-26 11:57:04,343 - INFO - Successfully saved data to data/2025ps/1629216.csv
+2025-04-26 11:57:04,344 - INFO - Processing 1641717 - 1610612760 for 2025
+2025-04-26 11:57:11,238 - ERROR - Error processing 1630532 with 1610612753: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1630532&TeamId=1610612753&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:57:11,627 - INFO - Successfully saved data to data/2025ps/1641716.csv
+2025-04-26 11:57:11,629 - INFO - Processing 1641775 - 1610612738 for 2025
+2025-04-26 11:57:19,763 - ERROR - Error processing 1641717 with 1610612760: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641717&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:57:27,367 - ERROR - Error processing 1641775 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641775&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:57:27,842 - INFO - Successfully saved data to data/2025ps/1630532.csv
+2025-04-26 11:57:27,846 - INFO - Processing 1642276 - 1610612748 for 2025
+2025-04-26 11:57:28,658 - INFO - Successfully saved data to data/2025ps/1641717.csv
+2025-04-26 11:57:28,659 - INFO - Processing 1631212 - 1610612743 for 2025
+2025-04-26 11:57:44,101 - INFO - Successfully saved data to data/2025ps/1631212.csv
+2025-04-26 11:57:44,113 - INFO - Processing 201566 - 1610612743 for 2025
+2025-04-26 11:57:44,796 - ERROR - Error processing 1641775 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1641775&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 11:57:47,297 - INFO - Successfully saved data to data/2025ps/201566.csv
+2025-04-26 11:57:47,298 - INFO - Processing 1628401 - 1610612738 for 2025
+2025-04-26 11:58:02,009 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1641775&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:58:06,742 - ERROR - Error processing 1642276 with 1610612748: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1642276&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 502 error responses')). Retrying in 2s
+2025-04-26 11:58:13,068 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1628401&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:58:13,317 - ERROR - Error processing 1628401 with 1610612738: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly1OnFloor=1628401&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:58:19,081 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1642276&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:58:25,332 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1628401&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:58:28,766 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly1OnFloor=1641775&TeamId=1610612738&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:58:30,209 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1642276&TeamId=1610612748&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:58:43,018 - INFO - Processing postseason 2025
+2025-04-26 11:58:43,569 - INFO - Processing 12 player-team combinations for 2025 playoffs
+2025-04-26 11:58:43,570 - INFO - Processing chunk 1/1 for 2025
+2025-04-26 11:58:43,572 - INFO - Processing 1641775 - 1610612738 for 2025
+2025-04-26 11:58:43,575 - INFO - Processing 1642276 - 1610612748 for 2025
+2025-04-26 11:58:43,577 - INFO - Processing 1628401 - 1610612738 for 2025
+2025-04-26 11:59:01,777 - INFO - Successfully saved data to data/2025ps/1641775.csv
+2025-04-26 11:59:01,779 - INFO - Processing 1641715 - 1610612745 for 2025
+2025-04-26 11:59:01,919 - INFO - Successfully saved data to data/2025ps/1628401.csv
+2025-04-26 11:59:01,921 - INFO - Processing 1630598 - 1610612760 for 2025
+2025-04-26 11:59:02,243 - INFO - Successfully saved data to data/2025ps/1642276.csv
+2025-04-26 11:59:02,244 - INFO - Processing 203952 - 1610612748 for 2025
+2025-04-26 11:59:05,907 - INFO - Successfully saved data to data/2025ps/203952.csv
+2025-04-26 11:59:05,910 - INFO - Processing 1631114 - 1610612760 for 2025
+2025-04-26 11:59:13,725 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1630598&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:59:14,079 - INFO - Successfully saved data to data/2025ps/1631114.csv
+2025-04-26 11:59:14,081 - INFO - Processing 1631119 - 1610612760 for 2025
+2025-04-26 11:59:19,848 - ERROR - Error processing 1641715 with 1610612745: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1641715&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 11:59:31,375 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1630598&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:59:31,865 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1641715&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:59:43,049 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1641715&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:59:49,569 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=10)")': /get-wowy-stats/nba?0Exactly0OnFloor=1630598&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player
+2025-04-26 11:59:55,394 - INFO - Processing postseason 2025
+2025-04-26 11:59:56,094 - INFO - Processing 7 player-team combinations for 2025 playoffs
+2025-04-26 11:59:56,095 - INFO - Processing chunk 1/1 for 2025
+2025-04-26 11:59:56,096 - INFO - Processing 1641715 - 1610612745 for 2025
+2025-04-26 11:59:56,098 - INFO - Processing 1630598 - 1610612760 for 2025
+2025-04-26 11:59:56,098 - INFO - Processing 1631119 - 1610612760 for 2025
+2025-04-26 12:00:03,016 - INFO - Successfully saved data to data/2025ps/1630598.csv
+2025-04-26 12:00:03,018 - INFO - Processing 1631466 - 1610612745 for 2025
+2025-04-26 12:00:10,652 - INFO - Successfully saved data to data/2025ps/1631119.csv
+2025-04-26 12:00:10,653 - INFO - Processing 1629026 - 1610612760 for 2025
+2025-04-26 12:00:17,511 - ERROR - Error processing 1641715 with 1610612745: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1641715&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 12:00:18,823 - INFO - Successfully saved data to data/2025ps/1629026.csv
+2025-04-26 12:00:18,824 - INFO - Processing 1631246 - 1610612763 for 2025
+2025-04-26 12:00:21,526 - ERROR - Error processing 1631466 with 1610612745: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1631466&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 2s
+2025-04-26 12:00:26,084 - INFO - Successfully saved data to data/2025ps/1631466.csv
+2025-04-26 12:00:26,085 - INFO - Processing 1627826 - 1610612746 for 2025
+2025-04-26 12:00:30,805 - INFO - Successfully saved data to data/2025ps/1631246.csv
+2025-04-26 12:00:35,351 - ERROR - Error processing 1641715 with 1610612745: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Max retries exceeded with url: /get-wowy-stats/nba?0Exactly0OnFloor=1641715&TeamId=1610612745&Season=2024-25&SeasonType=Playoffs&Type=Player (Caused by ResponseError('too many 503 error responses')). Retrying in 4s
+2025-04-26 12:00:37,594 - INFO - Successfully saved data to data/2025ps/1627826.csv
+2025-04-26 12:00:41,785 - INFO - Successfully saved data to data/2025ps/1641715.csv
+2025-04-26 12:00:41,790 - INFO - Processing regular season 2025
+2025-04-26 12:00:45,384 - INFO - No new data to process for 2025 regular season
+2025-04-26 12:01:00,262 - INFO - Processing postseason 2025
+2025-04-26 12:01:01,005 - INFO - No new data to process for 2025 playoffs
+2025-04-26 12:01:01,006 - INFO - Processing regular season 2025
+2025-04-26 12:01:03,550 - INFO - No new data to process for 2025 regular season
