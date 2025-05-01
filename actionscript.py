@@ -356,11 +356,12 @@ def process_daily_data(year: int, is_postseason: bool, index_df: pd.DataFrame, m
     
     return daily_folder, main_folder
 def daily_index():
-    yest= int(date.today().strftime("%Y%m%d")) -1
-    print(yest)
+    
+
     dates =pd.read_csv('https://raw.githubusercontent.com/gabriel1200/shot_data/refs/heads/master/game_dates.csv')
+    yest = dates['date'].max()
+
     dates=dates[dates.date==yest]
-    print(dates)
     teams=dates['TEAM_ID'].unique()
     isplayoffs=dates.playoffs.iloc[0]
 
