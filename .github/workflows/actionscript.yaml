@@ -2,15 +2,18 @@ name: NBA WOWY Stats Scraper
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 15 * * *'  # 9 AM CST
+    - cron: '0 19 * * *'  # 1 PM CST
+    - cron: '0 23 * * *'  # 5 PM CST
   workflow_dispatch:
+
 
 jobs:
   scrape-nba-stats:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
+      - name: Checkout repository 
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
