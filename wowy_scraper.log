@@ -186118,3 +186118,215 @@
 2025-08-06 15:18:08,856 - INFO - Started: 2025-08-06 15:12:18
 2025-08-06 15:18:08,856 - INFO - Finished: 2025-08-06 15:18:08
 2025-08-06 15:18:08,856 - INFO - Total duration: 0:05:49.876739
+2025-08-06 19:17:13,391 - INFO - Starting daily scrape at 2025-08-06 19:17:13
+2025-08-06 19:17:13,391 - INFO - Loading player index data...
+2025-08-06 19:17:13,792 - INFO - Data loaded successfully. Found 26609 regular season entries and 10759 playoff entries.
+2025-08-06 19:17:14,128 - INFO - Starting daily scrape for season 2025
+2025-08-06 19:17:14,130 - INFO - Processing 28 players for 2025 playoffs
+2025-08-06 19:17:14,131 - INFO - Processing 201949 - 1610612754 for 2025 (1/28)
+2025-08-06 19:17:14,131 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 201949  2024-25
+2025-08-06 19:17:14,360 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 201949 across 2024-25
+2025-08-06 19:17:16,362 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 201949  2024-25
+2025-08-06 19:17:17,499 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 201949 across 2024-25
+2025-08-06 19:17:22,239 - INFO - Saved data for player 201949 to daily_data/2025ps/201949.csv
+2025-08-06 19:17:22,240 - INFO - Processing 204456 - 1610612754 for 2025 (2/28)
+2025-08-06 19:17:22,240 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 204456  2024-25
+2025-08-06 19:17:23,136 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 204456 across 2024-25
+2025-08-06 19:17:25,138 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 204456  2024-25
+2025-08-06 19:17:25,950 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 204456 across 2024-25
+2025-08-06 19:17:30,280 - INFO - Saved data for player 204456 to daily_data/2025ps/204456.csv
+2025-08-06 19:17:30,281 - INFO - Processing 1626167 - 1610612754 for 2025 (3/28)
+2025-08-06 19:17:30,281 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1626167  2024-25
+2025-08-06 19:17:50,514 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1626167&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player. Retrying in 2.11 seconds (attempt 1/3)
+2025-08-06 19:17:54,270 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1626167 across 2024-25
+2025-08-06 19:17:56,272 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1626167  2024-25
+2025-08-06 19:18:24,123 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1626167 across 2024-25
+2025-08-06 19:18:28,526 - INFO - Saved data for player 1626167 to daily_data/2025ps/1626167.csv
+2025-08-06 19:18:28,527 - INFO - Processing 1627783 - 1610612754 for 2025 (4/28)
+2025-08-06 19:18:28,527 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1627783  2024-25
+2025-08-06 19:18:29,399 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1627783 across 2024-25
+2025-08-06 19:18:31,401 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1627783  2024-25
+2025-08-06 19:18:32,204 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1627783 across 2024-25
+2025-08-06 19:18:36,695 - INFO - Saved data for player 1627783 to daily_data/2025ps/1627783.csv
+2025-08-06 19:18:36,695 - INFO - Processing 1627936 - 1610612760 for 2025 (5/28)
+2025-08-06 19:18:36,696 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1627936  2024-25
+2025-08-06 19:18:37,613 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1627936 across 2024-25
+2025-08-06 19:18:39,615 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1627936  2024-25
+2025-08-06 19:18:40,540 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1627936 across 2024-25
+2025-08-06 19:18:45,515 - INFO - Saved data for player 1627936 to daily_data/2025ps/1627936.csv
+2025-08-06 19:18:45,516 - INFO - Processing 1628392 - 1610612760 for 2025 (6/28)
+2025-08-06 19:18:45,516 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628392  2024-25
+2025-08-06 19:18:46,278 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628392 across 2024-25
+2025-08-06 19:18:48,280 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628392  2024-25
+2025-08-06 19:18:48,444 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628392 across 2024-25
+2025-08-06 19:18:52,655 - INFO - Saved data for player 1628392 to daily_data/2025ps/1628392.csv
+2025-08-06 19:18:52,656 - INFO - Processing 1628396 - 1610612754 for 2025 (7/28)
+2025-08-06 19:18:52,656 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628396  2024-25
+2025-08-06 19:18:53,360 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628396 across 2024-25
+2025-08-06 19:18:55,362 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628396  2024-25
+2025-08-06 19:18:56,196 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628396 across 2024-25
+2025-08-06 19:19:01,114 - INFO - Saved data for player 1628396 to daily_data/2025ps/1628396.csv
+2025-08-06 19:19:01,115 - INFO - Processing 1628418 - 1610612754 for 2025 (8/28)
+2025-08-06 19:19:01,115 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628418  2024-25
+2025-08-06 19:19:01,315 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628418 across 2024-25
+2025-08-06 19:19:03,318 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628418  2024-25
+2025-08-06 19:19:04,303 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1628418 across 2024-25
+2025-08-06 19:19:08,832 - INFO - Saved data for player 1628418 to daily_data/2025ps/1628418.csv
+2025-08-06 19:19:08,832 - INFO - Processing 1628983 - 1610612760 for 2025 (9/28)
+2025-08-06 19:19:08,832 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628983  2024-25
+2025-08-06 19:19:09,635 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628983 across 2024-25
+2025-08-06 19:19:11,637 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628983  2024-25
+2025-08-06 19:19:12,356 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1628983 across 2024-25
+2025-08-06 19:19:16,537 - INFO - Saved data for player 1628983 to daily_data/2025ps/1628983.csv
+2025-08-06 19:19:16,538 - INFO - Processing 1629026 - 1610612760 for 2025 (10/28)
+2025-08-06 19:19:16,538 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629026  2024-25
+2025-08-06 19:19:17,192 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629026 across 2024-25
+2025-08-06 19:19:19,194 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629026  2024-25
+2025-08-06 19:19:20,223 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629026 across 2024-25
+2025-08-06 19:19:24,686 - INFO - Saved data for player 1629026 to daily_data/2025ps/1629026.csv
+2025-08-06 19:19:24,686 - INFO - Progress: 10/28 players processed (35.7%)
+2025-08-06 19:19:24,687 - INFO - Processing 1629614 - 1610612754 for 2025 (11/28)
+2025-08-06 19:19:24,687 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1629614  2024-25
+2025-08-06 19:19:25,470 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1629614 across 2024-25
+2025-08-06 19:19:27,473 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1629614  2024-25
+2025-08-06 19:19:28,348 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1629614 across 2024-25
+2025-08-06 19:19:32,992 - INFO - Saved data for player 1629614 to daily_data/2025ps/1629614.csv
+2025-08-06 19:19:32,993 - INFO - Processing 1629652 - 1610612760 for 2025 (12/28)
+2025-08-06 19:19:32,993 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629652  2024-25
+2025-08-06 19:19:42,730 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629652 across 2024-25
+2025-08-06 19:19:44,733 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629652  2024-25
+2025-08-06 19:19:45,501 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1629652 across 2024-25
+2025-08-06 19:19:50,270 - INFO - Saved data for player 1629652 to daily_data/2025ps/1629652.csv
+2025-08-06 19:19:50,271 - INFO - Processing 1630167 - 1610612754 for 2025 (13/28)
+2025-08-06 19:19:50,271 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630167  2024-25
+2025-08-06 19:19:51,074 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630167 across 2024-25
+2025-08-06 19:19:53,076 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630167  2024-25
+2025-08-06 19:19:54,024 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630167 across 2024-25
+2025-08-06 19:19:58,899 - INFO - Saved data for player 1630167 to daily_data/2025ps/1630167.csv
+2025-08-06 19:19:58,900 - INFO - Processing 1630169 - 1610612754 for 2025 (14/28)
+2025-08-06 19:19:58,900 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630169  2024-25
+2025-08-06 19:20:00,272 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630169 across 2024-25
+2025-08-06 19:20:02,274 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630169  2024-25
+2025-08-06 19:20:03,657 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630169 across 2024-25
+2025-08-06 19:20:07,762 - INFO - Saved data for player 1630169 to daily_data/2025ps/1630169.csv
+2025-08-06 19:20:07,763 - INFO - Processing 1630174 - 1610612754 for 2025 (15/28)
+2025-08-06 19:20:07,763 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630174  2024-25
+2025-08-06 19:20:08,028 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630174 across 2024-25
+2025-08-06 19:20:10,030 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630174  2024-25
+2025-08-06 19:20:10,174 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1630174 across 2024-25
+2025-08-06 19:20:14,719 - INFO - Saved data for player 1630174 to daily_data/2025ps/1630174.csv
+2025-08-06 19:20:14,720 - INFO - Processing 1630198 - 1610612760 for 2025 (16/28)
+2025-08-06 19:20:14,720 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630198  2024-25
+2025-08-06 19:20:15,635 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630198 across 2024-25
+2025-08-06 19:20:17,638 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630198  2024-25
+2025-08-06 19:20:39,538 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630198 across 2024-25
+2025-08-06 19:20:44,443 - INFO - Saved data for player 1630198 to daily_data/2025ps/1630198.csv
+2025-08-06 19:20:44,443 - INFO - Processing 1630598 - 1610612760 for 2025 (17/28)
+2025-08-06 19:20:44,443 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630598  2024-25
+2025-08-06 19:20:45,123 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630598 across 2024-25
+2025-08-06 19:20:47,125 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630598  2024-25
+2025-08-06 19:20:48,096 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1630598 across 2024-25
+2025-08-06 19:20:52,694 - INFO - Saved data for player 1630598 to daily_data/2025ps/1630598.csv
+2025-08-06 19:20:52,695 - INFO - Processing 1631096 - 1610612760 for 2025 (18/28)
+2025-08-06 19:20:52,695 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631096  2024-25
+2025-08-06 19:20:52,895 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631096 across 2024-25
+2025-08-06 19:20:54,897 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631096  2024-25
+2025-08-06 19:20:58,837 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631096 across 2024-25
+2025-08-06 19:21:03,692 - INFO - Saved data for player 1631096 to daily_data/2025ps/1631096.csv
+2025-08-06 19:21:03,693 - INFO - Processing 1631097 - 1610612754 for 2025 (19/28)
+2025-08-06 19:21:03,693 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1631097  2024-25
+2025-08-06 19:21:23,778 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1631097&TeamId=1610612754&Season=2024-25&SeasonType=Playoffs&Type=Player. Retrying in 2.30 seconds (attempt 1/3)
+2025-08-06 19:21:26,891 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1631097 across 2024-25
+2025-08-06 19:21:28,893 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1631097  2024-25
+2025-08-06 19:21:29,961 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1631097 across 2024-25
+2025-08-06 19:21:33,998 - INFO - Saved data for player 1631097 to daily_data/2025ps/1631097.csv
+2025-08-06 19:21:33,999 - INFO - Processing 1631114 - 1610612760 for 2025 (20/28)
+2025-08-06 19:21:33,999 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631114  2024-25
+2025-08-06 19:21:34,139 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631114 across 2024-25
+2025-08-06 19:21:36,142 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631114  2024-25
+2025-08-06 19:21:36,929 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631114 across 2024-25
+2025-08-06 19:21:41,298 - INFO - Saved data for player 1631114 to daily_data/2025ps/1631114.csv
+2025-08-06 19:21:41,298 - INFO - Progress: 20/28 players processed (71.4%)
+2025-08-06 19:21:41,299 - INFO - Processing 1631119 - 1610612760 for 2025 (21/28)
+2025-08-06 19:21:41,299 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631119  2024-25
+2025-08-06 19:21:43,110 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631119 across 2024-25
+2025-08-06 19:21:45,112 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631119  2024-25
+2025-08-06 19:21:45,979 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631119 across 2024-25
+2025-08-06 19:21:50,140 - INFO - Saved data for player 1631119 to daily_data/2025ps/1631119.csv
+2025-08-06 19:21:50,140 - INFO - Processing 1631172 - 1610612760 for 2025 (22/28)
+2025-08-06 19:21:50,140 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631172  2024-25
+2025-08-06 19:21:50,747 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631172 across 2024-25
+2025-08-06 19:21:52,749 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631172  2024-25
+2025-08-06 19:21:53,798 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1631172 across 2024-25
+2025-08-06 19:21:58,732 - INFO - Saved data for player 1631172 to daily_data/2025ps/1631172.csv
+2025-08-06 19:21:58,733 - INFO - Processing 1641716 - 1610612754 for 2025 (23/28)
+2025-08-06 19:21:58,733 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641716  2024-25
+2025-08-06 19:21:59,456 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641716 across 2024-25
+2025-08-06 19:22:01,458 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641716  2024-25
+2025-08-06 19:22:02,435 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641716 across 2024-25
+2025-08-06 19:22:07,437 - INFO - Saved data for player 1641716 to daily_data/2025ps/1641716.csv
+2025-08-06 19:22:07,437 - INFO - Processing 1641717 - 1610612760 for 2025 (24/28)
+2025-08-06 19:22:07,437 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641717  2024-25
+2025-08-06 19:22:08,298 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641717 across 2024-25
+2025-08-06 19:22:10,301 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641717  2024-25
+2025-08-06 19:22:28,387 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1641717&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player. Retrying in 2.85 seconds (attempt 1/3)
+2025-08-06 19:22:41,315 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1641717&TeamId=1610612760&Season=2024-25&SeasonType=Playoffs&Type=Player. Retrying in 4.52 seconds (attempt 2/3)
+2025-08-06 19:22:46,558 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641717 across 2024-25
+2025-08-06 19:22:51,087 - INFO - Saved data for player 1641717 to daily_data/2025ps/1641717.csv
+2025-08-06 19:22:51,088 - INFO - Processing 1641767 - 1610612754 for 2025 (25/28)
+2025-08-06 19:22:51,088 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641767  2024-25
+2025-08-06 19:22:51,930 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641767 across 2024-25
+2025-08-06 19:22:53,932 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641767  2024-25
+2025-08-06 19:22:54,714 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1641767 across 2024-25
+2025-08-06 19:22:58,937 - INFO - Saved data for player 1641767 to daily_data/2025ps/1641767.csv
+2025-08-06 19:22:58,938 - INFO - Processing 1641794 - 1610612760 for 2025 (26/28)
+2025-08-06 19:22:58,938 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641794  2024-25
+2025-08-06 19:22:59,567 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641794 across 2024-25
+2025-08-06 19:23:01,569 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641794  2024-25
+2025-08-06 19:23:02,785 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1641794 across 2024-25
+2025-08-06 19:23:06,829 - INFO - Saved data for player 1641794 to daily_data/2025ps/1641794.csv
+2025-08-06 19:23:06,829 - INFO - Processing 1642277 - 1610612754 for 2025 (27/28)
+2025-08-06 19:23:06,830 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1642277  2024-25
+2025-08-06 19:23:06,997 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1642277 across 2024-25
+2025-08-06 19:23:08,999 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1642277  2024-25
+2025-08-06 19:23:10,228 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612754, Player ID: 1642277 across 2024-25
+2025-08-06 19:23:14,966 - INFO - Saved data for player 1642277 to daily_data/2025ps/1642277.csv
+2025-08-06 19:23:14,966 - INFO - Processing 1642349 - 1610612760 for 2025 (28/28)
+2025-08-06 19:23:14,967 - INFO - Fetching ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1642349  2024-25
+2025-08-06 19:23:15,072 - INFO - Fetched ON Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1642349 across 2024-25
+2025-08-06 19:23:17,074 - INFO - Fetching OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1642349  2024-25
+2025-08-06 19:23:28,874 - INFO - Fetched OFF Playoffs WOWY stats for Team ID: 1610612760, Player ID: 1642349 across 2024-25
+2025-08-06 19:23:33,788 - INFO - Saved data for player 1642349 to daily_data/2025ps/1642349.csv
+2025-08-06 19:23:33,788 - INFO - Successfully processed 28/28 players. Copying files to main folder...
+2025-08-06 19:23:33,788 - INFO - Copied 1631172.csv to main data folder
+2025-08-06 19:23:33,789 - INFO - Copied 201949.csv to main data folder
+2025-08-06 19:23:33,789 - INFO - Copied 1631114.csv to main data folder
+2025-08-06 19:23:33,789 - INFO - Copied 1630169.csv to main data folder
+2025-08-06 19:23:33,789 - INFO - Copied 1630167.csv to main data folder
+2025-08-06 19:23:33,790 - INFO - Copied 1628396.csv to main data folder
+2025-08-06 19:23:33,790 - INFO - Copied 1641794.csv to main data folder
+2025-08-06 19:23:33,790 - INFO - Copied 1629652.csv to main data folder
+2025-08-06 19:23:33,791 - INFO - Copied 1641716.csv to main data folder
+2025-08-06 19:23:33,791 - INFO - Copied 1627783.csv to main data folder
+2025-08-06 19:23:33,791 - INFO - Copied 1630598.csv to main data folder
+2025-08-06 19:23:33,792 - INFO - Copied 1642349.csv to main data folder
+2025-08-06 19:23:33,792 - INFO - Copied 1630198.csv to main data folder
+2025-08-06 19:23:33,792 - INFO - Copied 1641717.csv to main data folder
+2025-08-06 19:23:33,793 - INFO - Copied 1629614.csv to main data folder
+2025-08-06 19:23:33,793 - INFO - Copied 1641767.csv to main data folder
+2025-08-06 19:23:33,793 - INFO - Copied 1642277.csv to main data folder
+2025-08-06 19:23:33,794 - INFO - Copied 1628418.csv to main data folder
+2025-08-06 19:23:33,794 - INFO - Copied 204456.csv to main data folder
+2025-08-06 19:23:33,794 - INFO - Copied 1631119.csv to main data folder
+2025-08-06 19:23:33,794 - INFO - Copied 1631096.csv to main data folder
+2025-08-06 19:23:33,795 - INFO - Copied 1628983.csv to main data folder
+2025-08-06 19:23:33,795 - INFO - Copied 1630174.csv to main data folder
+2025-08-06 19:23:33,795 - INFO - Copied 1631097.csv to main data folder
+2025-08-06 19:23:33,796 - INFO - Copied 1626167.csv to main data folder
+2025-08-06 19:23:33,796 - INFO - Copied 1627936.csv to main data folder
+2025-08-06 19:23:33,796 - INFO - Copied 1629026.csv to main data folder
+2025-08-06 19:23:33,797 - INFO - Copied 1628392.csv to main data folder
+2025-08-06 19:23:33,797 - INFO - Daily scraping completed successfully
+2025-08-06 19:23:33,797 - INFO - Started: 2025-08-06 19:17:13
+2025-08-06 19:23:33,797 - INFO - Finished: 2025-08-06 19:23:33
+2025-08-06 19:23:33,797 - INFO - Total duration: 0:06:20.406327
