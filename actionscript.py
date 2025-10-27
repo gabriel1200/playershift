@@ -157,9 +157,10 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
     wowy_url = "https://api.pbpstats.com/get-wowy-stats/nba"
 
     # Player on floor parameters
+
     wowy_params_on = {
-        "0Exactly1OnFloor": player_id,  # Player on
-        "TeamId": team_id,  # Team ID
+        "0Exactly1OnFloor": int(player_id),  # Player on
+        "TeamId": int(team_id),  # Team ID
         "Season": ",".join(seasons),
         "SeasonType": s_type,
         "Type": "Player",  # Player stats
@@ -397,6 +398,7 @@ def main():
             index_reg.dropna(subset='nba_id', inplace=True)
             index_reg.dropna(subset='team_id', inplace=True)
             index_reg = index_reg[index_reg.team != 'TOT']
+            index_reg['team_id']=index_reg['team_id'].astype(int)
             
             # Load playoff data
             index_ps = pd.read_csv('https://raw.githubusercontent.com/gabriel1200/site_Data/refs/heads/master/index_master_ps.csv')
