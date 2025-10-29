@@ -214,6 +214,7 @@ def wowy_shift(team_id: str, player1_id: str, seasons: List[str], ps=False, max_
                     continue
                 
                 wowy = response.json()
+                print(wowy)
                 
                 if not wowy.get("multi_row_table_data"):
                     logging.warning(f"No data returned for {player1_id} with {team_id}, retrying {retry_count+1}/{max_retries}")

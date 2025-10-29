@@ -144,8 +144,8 @@ def make_api_request(url, params,  max_retries=5, initial_wait=2):
             time.sleep(wait_time)
 
 def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries=5):
-    player_id = player1_id
-    team_id = team_id
+    player_id = int(player1_id)
+    team_id = int(team_id)
     
     if ps == False:
         s_type = 'Regular Season'
@@ -178,8 +178,8 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
     
     # Player off floor parameters
     wowy_params_off = {
-        "0Exactly0OnFloor": player_id,  # Player off
-        "TeamId": team_id,  # Team ID
+        "0Exactly0OnFloor": int(player_id),  # Player off
+        "TeamId": int(team_id),  # Team ID
         "Season": ",".join(seasons),
         "SeasonType": s_type,
         "Type": "Player",  # Player stats
@@ -189,6 +189,7 @@ def wowy_shift(team_id, player1_id, seasons, ps=False, common=False, max_retries
     logging.info(f"Fetching OFF {s_type} WOWY stats for Team ID: {team_id}, Player ID: {player1_id}  {', '.join(seasons) if seasons else 'N/A'}")
 
     wowy_data = make_api_request(wowy_url, wowy_params_off, max_retries)
+
 
 
     player_stats_off = wowy_data["multi_row_table_data"]
