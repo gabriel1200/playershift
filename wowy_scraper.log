@@ -316415,3 +316415,846 @@
 2026-10-28 20:36:30,943 - INFO - Started: 2026-10-28 19:56:55
 2026-10-28 20:36:30,943 - INFO - Finished: 2026-10-28 20:36:30
 2026-10-28 20:36:30,944 - INFO - Total duration: 0:39:35.193933
+2026-10-28 22:58:10,151 - INFO - Starting daily scrape at 2026-10-28 22:58:10
+2026-10-28 22:58:10,151 - INFO - Loading player index data...
+2026-10-28 22:58:10,805 - INFO - Data loaded successfully. Found 27685 regular season entries and 10989 playoff entries.
+2026-10-28 22:58:11,527 - INFO - Starting daily scrape for season 2027
+2026-10-28 22:58:11,529 - INFO - Processing 115 players for 2027 regular season
+2026-10-28 22:58:11,530 - INFO - Processing 201144 - 1610612738.0 for 2027 (1/115)
+2026-10-28 22:58:11,530 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 201144  2026-27
+2026-10-28 22:58:12,229 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 201144 across 2026-27
+2026-10-28 22:58:14,232 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 201144  2026-27
+2026-10-28 22:58:15,452 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 201144 across 2026-27
+2026-10-28 22:58:19,490 - INFO - Saved data for player 201144 to daily_data/2027/201144.csv
+2026-10-28 22:58:19,491 - INFO - Processing 201950 - 1610612757.0 for 2027 (2/115)
+2026-10-28 22:58:19,491 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 201950  2026-27
+2026-10-28 22:58:20,630 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 201950 across 2026-27
+2026-10-28 22:58:22,632 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 201950  2026-27
+2026-10-28 22:58:23,290 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 201950 across 2026-27
+2026-10-28 22:58:28,155 - INFO - Saved data for player 201950 to daily_data/2027/201950.csv
+2026-10-28 22:58:28,156 - INFO - Processing 202331 - 1610612738.0 for 2027 (3/115)
+2026-10-28 22:58:28,156 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 202331  2026-27
+2026-10-28 22:58:28,980 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 202331 across 2026-27
+2026-10-28 22:58:30,982 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 202331  2026-27
+2026-10-28 22:58:32,160 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 202331 across 2026-27
+2026-10-28 22:58:36,371 - INFO - Saved data for player 202331 to daily_data/2027/202331.csv
+2026-10-28 22:58:36,372 - INFO - Processing 203081 - 1610612757.0 for 2027 (4/115)
+2026-10-28 22:58:36,372 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 203081  2026-27
+2026-10-28 22:58:37,475 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 203081 across 2026-27
+2026-10-28 22:58:39,477 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 203081  2026-27
+2026-10-28 22:58:40,213 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 203081 across 2026-27
+2026-10-28 22:58:45,046 - INFO - Saved data for player 203081 to daily_data/2027/203081.csv
+2026-10-28 22:58:45,047 - INFO - Processing 203083 - 1610612752.0 for 2027 (5/115)
+2026-10-28 22:58:45,047 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203083  2026-27
+2026-10-28 22:58:45,715 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203083 across 2026-27
+2026-10-28 22:58:47,716 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203083  2026-27
+2026-10-28 22:58:49,112 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203083 across 2026-27
+2026-10-28 22:58:53,454 - INFO - Saved data for player 203083 to daily_data/2027/203083.csv
+2026-10-28 22:58:53,454 - INFO - Processing 203084 - 1610612759.0 for 2027 (6/115)
+2026-10-28 22:58:53,455 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 203084  2026-27
+2026-10-28 22:59:07,658 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=203084&TeamId=1610612759&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.40 seconds (attempt 1/3)
+2026-10-28 22:59:12,672 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 203084 across 2026-27
+2026-10-28 22:59:14,674 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 203084  2026-27
+2026-10-28 22:59:15,645 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 203084 across 2026-27
+2026-10-28 22:59:19,799 - INFO - Saved data for player 203084 to daily_data/2027/203084.csv
+2026-10-28 22:59:19,800 - INFO - Processing 203897 - 1610612758.0 for 2027 (7/115)
+2026-10-28 22:59:19,800 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 203897  2026-27
+2026-10-28 22:59:20,633 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 203897 across 2026-27
+2026-10-28 22:59:22,635 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 203897  2026-27
+2026-10-28 22:59:23,414 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 203897 across 2026-27
+2026-10-28 22:59:28,273 - INFO - Saved data for player 203897 to daily_data/2027/203897.csv
+2026-10-28 22:59:28,273 - INFO - Processing 203903 - 1610612752.0 for 2027 (8/115)
+2026-10-28 22:59:28,274 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203903  2026-27
+2026-10-28 22:59:28,908 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203903 across 2026-27
+2026-10-28 22:59:30,911 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203903  2026-27
+2026-10-28 22:59:32,277 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 203903 across 2026-27
+2026-10-28 22:59:37,302 - INFO - Saved data for player 203903 to daily_data/2027/203903.csv
+2026-10-28 22:59:37,303 - INFO - Processing 203944 - 1610612751.0 for 2027 (9/115)
+2026-10-28 22:59:37,303 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 203944  2026-27
+2026-10-28 22:59:38,544 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 203944 across 2026-27
+2026-10-28 22:59:40,547 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 203944  2026-27
+2026-10-28 22:59:41,838 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 203944 across 2026-27
+2026-10-28 22:59:46,487 - INFO - Saved data for player 203944 to daily_data/2027/203944.csv
+2026-10-28 22:59:46,487 - INFO - Processing 1626157 - 1610612752.0 for 2027 (10/115)
+2026-10-28 22:59:46,487 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1626157  2026-27
+2026-10-28 22:59:47,508 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1626157 across 2026-27
+2026-10-28 22:59:49,510 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1626157  2026-27
+2026-10-28 22:59:50,416 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1626157 across 2026-27
+2026-10-28 22:59:55,402 - INFO - Saved data for player 1626157 to daily_data/2027/1626157.csv
+2026-10-28 22:59:55,402 - INFO - Progress: 10/115 players processed (8.7%)
+2026-10-28 22:59:55,403 - INFO - Processing 1626172 - 1610612747.0 for 2027 (11/115)
+2026-10-28 22:59:55,403 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1626172  2026-27
+2026-10-28 22:59:56,024 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1626172 across 2026-27
+2026-10-28 22:59:58,027 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1626172  2026-27
+2026-10-28 22:59:58,952 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1626172 across 2026-27
+2026-10-28 23:00:03,442 - INFO - Saved data for player 1626172 to daily_data/2027/1626172.csv
+2026-10-28 23:00:03,443 - INFO - Processing 1627734 - 1610612758.0 for 2027 (12/115)
+2026-10-28 23:00:03,443 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1627734  2026-27
+2026-10-28 23:00:04,760 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1627734 across 2026-27
+2026-10-28 23:00:06,762 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1627734  2026-27
+2026-10-28 23:00:07,587 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1627734 across 2026-27
+2026-10-28 23:00:12,176 - INFO - Saved data for player 1627734 to daily_data/2027/1627734.csv
+2026-10-28 23:00:12,176 - INFO - Processing 1627752 - 1610612765.0 for 2027 (13/115)
+2026-10-28 23:00:12,176 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1627752  2026-27
+2026-10-28 23:00:13,349 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1627752 across 2026-27
+2026-10-28 23:00:15,352 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1627752  2026-27
+2026-10-28 23:00:16,894 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1627752 across 2026-27
+2026-10-28 23:00:21,281 - INFO - Saved data for player 1627752 to daily_data/2027/1627752.csv
+2026-10-28 23:00:21,282 - INFO - Processing 1628368 - 1610612759.0 for 2027 (14/115)
+2026-10-28 23:00:21,282 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628368  2026-27
+2026-10-28 23:00:22,108 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628368 across 2026-27
+2026-10-28 23:00:24,110 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628368  2026-27
+2026-10-28 23:00:25,702 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628368 across 2026-27
+2026-10-28 23:00:29,894 - INFO - Saved data for player 1628368 to daily_data/2027/1628368.csv
+2026-10-28 23:00:29,895 - INFO - Processing 1628369 - 1610612738.0 for 2027 (15/115)
+2026-10-28 23:00:29,895 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628369  2026-27
+2026-10-28 23:00:30,835 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628369 across 2026-27
+2026-10-28 23:00:32,838 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628369  2026-27
+2026-10-28 23:00:34,349 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628369 across 2026-27
+2026-10-28 23:00:38,757 - INFO - Saved data for player 1628369 to daily_data/2027/1628369.csv
+2026-10-28 23:00:38,758 - INFO - Processing 1628370 - 1610612758.0 for 2027 (16/115)
+2026-10-28 23:00:38,758 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1628370  2026-27
+2026-10-28 23:00:40,332 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1628370 across 2026-27
+2026-10-28 23:00:42,333 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1628370  2026-27
+2026-10-28 23:00:43,859 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1628370 across 2026-27
+2026-10-28 23:00:48,766 - INFO - Saved data for player 1628370 to daily_data/2027/1628370.csv
+2026-10-28 23:00:48,767 - INFO - Processing 1628381 - 1610612765.0 for 2027 (17/115)
+2026-10-28 23:00:48,767 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628381  2026-27
+2026-10-28 23:01:15,009 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1628381&TeamId=1610612765&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.68 seconds (attempt 1/3)
+2026-10-28 23:01:21,851 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628381 across 2026-27
+2026-10-28 23:01:23,854 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628381  2026-27
+2026-10-28 23:01:38,246 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628381 across 2026-27
+2026-10-28 23:01:42,903 - INFO - Saved data for player 1628381 to daily_data/2027/1628381.csv
+2026-10-28 23:01:42,903 - INFO - Processing 1628384 - 1610612752.0 for 2027 (18/115)
+2026-10-28 23:01:42,903 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628384  2026-27
+2026-10-28 23:01:54,652 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628384 across 2026-27
+2026-10-28 23:01:56,654 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628384  2026-27
+2026-10-28 23:01:57,682 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628384 across 2026-27
+2026-10-28 23:02:01,818 - INFO - Saved data for player 1628384 to daily_data/2027/1628384.csv
+2026-10-28 23:02:01,819 - INFO - Processing 1628401 - 1610612738.0 for 2027 (19/115)
+2026-10-28 23:02:01,819 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628401  2026-27
+2026-10-28 23:02:22,102 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628401 across 2026-27
+2026-10-28 23:02:24,104 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628401  2026-27
+2026-10-28 23:02:26,365 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1628401 across 2026-27
+2026-10-28 23:02:30,689 - INFO - Saved data for player 1628401 to daily_data/2027/1628401.csv
+2026-10-28 23:02:30,689 - INFO - Processing 1628404 - 1610612752.0 for 2027 (20/115)
+2026-10-28 23:02:30,689 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628404  2026-27
+2026-10-28 23:02:31,679 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628404 across 2026-27
+2026-10-28 23:02:33,681 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628404  2026-27
+2026-10-28 23:02:34,391 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628404 across 2026-27
+2026-10-28 23:02:38,678 - INFO - Saved data for player 1628404 to daily_data/2027/1628404.csv
+2026-10-28 23:02:38,678 - INFO - Progress: 20/115 players processed (17.4%)
+2026-10-28 23:02:38,679 - INFO - Processing 1628436 - 1610612759.0 for 2027 (21/115)
+2026-10-28 23:02:38,679 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628436  2026-27
+2026-10-28 23:02:39,939 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628436 across 2026-27
+2026-10-28 23:02:41,941 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628436  2026-27
+2026-10-28 23:02:46,253 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1628436&TeamId=1610612759&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.37 seconds (attempt 1/3)
+2026-10-28 23:02:49,728 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1628436 across 2026-27
+2026-10-28 23:02:54,335 - INFO - Saved data for player 1628436 to daily_data/2027/1628436.csv
+2026-10-28 23:02:54,335 - INFO - Processing 1628969 - 1610612752.0 for 2027 (22/115)
+2026-10-28 23:02:54,336 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628969  2026-27
+2026-10-28 23:03:02,393 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628969 across 2026-27
+2026-10-28 23:03:04,396 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628969  2026-27
+2026-10-28 23:03:34,516 - WARNING - Request failed: HTTPSConnectionPool(host='api.pbpstats.com', port=443): Read timed out. (read timeout=30). Retrying in 2.18 seconds (attempt 1/3)
+2026-10-28 23:03:45,805 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628969 across 2026-27
+2026-10-28 23:03:50,529 - INFO - Saved data for player 1628969 to daily_data/2027/1628969.csv
+2026-10-28 23:03:50,529 - INFO - Processing 1628973 - 1610612752.0 for 2027 (23/115)
+2026-10-28 23:03:50,529 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628973  2026-27
+2026-10-28 23:03:51,964 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628973 across 2026-27
+2026-10-28 23:03:53,966 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628973  2026-27
+2026-10-28 23:03:59,253 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1628973 across 2026-27
+2026-10-28 23:04:04,024 - INFO - Saved data for player 1628973 to daily_data/2027/1628973.csv
+2026-10-28 23:04:04,025 - INFO - Processing 1628989 - 1610612765.0 for 2027 (24/115)
+2026-10-28 23:04:04,025 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628989  2026-27
+2026-10-28 23:04:09,034 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628989 across 2026-27
+2026-10-28 23:04:11,036 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628989  2026-27
+2026-10-28 23:04:13,430 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1628989 across 2026-27
+2026-10-28 23:04:18,014 - INFO - Saved data for player 1628989 to daily_data/2027/1628989.csv
+2026-10-28 23:04:18,015 - INFO - Processing 1629008 - 1610612751.0 for 2027 (25/115)
+2026-10-28 23:04:18,015 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629008  2026-27
+2026-10-28 23:04:19,996 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629008 across 2026-27
+2026-10-28 23:04:21,998 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629008  2026-27
+2026-10-28 23:04:23,196 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629008 across 2026-27
+2026-10-28 23:04:27,272 - INFO - Saved data for player 1629008 to daily_data/2027/1629008.csv
+2026-10-28 23:04:27,273 - INFO - Processing 1629011 - 1610612738.0 for 2027 (26/115)
+2026-10-28 23:04:27,273 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629011  2026-27
+2026-10-28 23:04:29,010 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629011 across 2026-27
+2026-10-28 23:04:31,013 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629011  2026-27
+2026-10-28 23:04:31,796 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629011 across 2026-27
+2026-10-28 23:04:36,634 - INFO - Saved data for player 1629011 to daily_data/2027/1629011.csv
+2026-10-28 23:04:36,635 - INFO - Processing 1629012 - 1610612747.0 for 2027 (27/115)
+2026-10-28 23:04:36,635 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629012  2026-27
+2026-10-28 23:04:37,760 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629012 across 2026-27
+2026-10-28 23:04:39,762 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629012  2026-27
+2026-10-28 23:04:40,952 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629012 across 2026-27
+2026-10-28 23:04:45,939 - INFO - Saved data for player 1629012 to daily_data/2027/1629012.csv
+2026-10-28 23:04:45,940 - INFO - Processing 1629013 - 1610612752.0 for 2027 (28/115)
+2026-10-28 23:04:45,940 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1629013  2026-27
+2026-10-28 23:04:57,419 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1629013 across 2026-27
+2026-10-28 23:04:59,421 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1629013  2026-27
+2026-10-28 23:05:00,270 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1629013 across 2026-27
+2026-10-28 23:05:05,206 - INFO - Saved data for player 1629013 to daily_data/2027/1629013.csv
+2026-10-28 23:05:05,207 - INFO - Processing 1629021 - 1610612751.0 for 2027 (29/115)
+2026-10-28 23:05:05,207 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629021  2026-27
+2026-10-28 23:05:31,425 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629021 across 2026-27
+2026-10-28 23:05:33,427 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629021  2026-27
+2026-10-28 23:05:34,296 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1629021 across 2026-27
+2026-10-28 23:05:38,925 - INFO - Saved data for player 1629021 to daily_data/2027/1629021.csv
+2026-10-28 23:05:38,926 - INFO - Processing 1629029 - 1610612747.0 for 2027 (30/115)
+2026-10-28 23:05:38,926 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629029  2026-27
+2026-10-28 23:05:40,215 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629029 across 2026-27
+2026-10-28 23:05:42,217 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629029  2026-27
+2026-10-28 23:05:43,464 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629029 across 2026-27
+2026-10-28 23:05:48,371 - INFO - Saved data for player 1629029 to daily_data/2027/1629029.csv
+2026-10-28 23:05:48,372 - INFO - Progress: 30/115 players processed (26.1%)
+2026-10-28 23:05:48,372 - INFO - Processing 1629057 - 1610612757.0 for 2027 (31/115)
+2026-10-28 23:05:48,372 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629057  2026-27
+2026-10-28 23:05:49,456 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629057 across 2026-27
+2026-10-28 23:05:51,459 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629057  2026-27
+2026-10-28 23:05:52,641 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629057 across 2026-27
+2026-10-28 23:05:57,255 - INFO - Saved data for player 1629057 to daily_data/2027/1629057.csv
+2026-10-28 23:05:57,255 - INFO - Processing 1629130 - 1610612765.0 for 2027 (32/115)
+2026-10-28 23:05:57,256 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629130  2026-27
+2026-10-28 23:05:58,833 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629130 across 2026-27
+2026-10-28 23:06:00,836 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629130  2026-27
+2026-10-28 23:06:05,361 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629130 across 2026-27
+2026-10-28 23:06:09,425 - INFO - Saved data for player 1629130 to daily_data/2027/1629130.csv
+2026-10-28 23:06:09,425 - INFO - Processing 1629162 - 1610612759.0 for 2027 (33/115)
+2026-10-28 23:06:09,426 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629162  2026-27
+2026-10-28 23:06:39,305 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629162 across 2026-27
+2026-10-28 23:06:41,308 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629162  2026-27
+2026-10-28 23:06:42,516 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629162 across 2026-27
+2026-10-28 23:06:46,749 - INFO - Saved data for player 1629162 to daily_data/2027/1629162.csv
+2026-10-28 23:06:46,750 - INFO - Processing 1629630 - 1610612757.0 for 2027 (34/115)
+2026-10-28 23:06:46,750 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629630  2026-27
+2026-10-28 23:06:49,713 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629630 across 2026-27
+2026-10-28 23:06:51,715 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629630  2026-27
+2026-10-28 23:07:12,801 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1629630 across 2026-27
+2026-10-28 23:07:17,338 - INFO - Saved data for player 1629630 to daily_data/2027/1629630.csv
+2026-10-28 23:07:17,338 - INFO - Processing 1629631 - 1610612758.0 for 2027 (35/115)
+2026-10-28 23:07:17,338 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1629631  2026-27
+2026-10-28 23:07:18,237 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1629631 across 2026-27
+2026-10-28 23:07:20,240 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1629631  2026-27
+2026-10-28 23:07:34,410 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1629631&TeamId=1610612758&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.31 seconds (attempt 1/3)
+2026-10-28 23:07:39,293 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1629631 across 2026-27
+2026-10-28 23:07:43,565 - INFO - Saved data for player 1629631 to daily_data/2027/1629631.csv
+2026-10-28 23:07:43,565 - INFO - Processing 1629640 - 1610612759.0 for 2027 (36/115)
+2026-10-28 23:07:43,565 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629640  2026-27
+2026-10-28 23:07:48,101 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629640 across 2026-27
+2026-10-28 23:07:50,104 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629640  2026-27
+2026-10-28 23:08:18,948 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1629640 across 2026-27
+2026-10-28 23:08:23,639 - INFO - Saved data for player 1629640 to daily_data/2027/1629640.csv
+2026-10-28 23:08:23,640 - INFO - Processing 1629656 - 1610612747.0 for 2027 (37/115)
+2026-10-28 23:08:23,640 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629656  2026-27
+2026-10-28 23:08:24,548 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629656 across 2026-27
+2026-10-28 23:08:26,550 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629656  2026-27
+2026-10-28 23:08:27,249 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629656 across 2026-27
+2026-10-28 23:08:31,500 - INFO - Saved data for player 1629656 to daily_data/2027/1629656.csv
+2026-10-28 23:08:31,500 - INFO - Processing 1629674 - 1610612738.0 for 2027 (38/115)
+2026-10-28 23:08:31,500 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629674  2026-27
+2026-10-28 23:08:32,764 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629674 across 2026-27
+2026-10-28 23:08:34,766 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629674  2026-27
+2026-10-28 23:08:35,470 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1629674 across 2026-27
+2026-10-28 23:08:40,241 - INFO - Saved data for player 1629674 to daily_data/2027/1629674.csv
+2026-10-28 23:08:40,242 - INFO - Processing 1629680 - 1610612747.0 for 2027 (39/115)
+2026-10-28 23:08:40,242 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629680  2026-27
+2026-10-28 23:09:02,459 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629680 across 2026-27
+2026-10-28 23:09:04,461 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629680  2026-27
+2026-10-28 23:09:05,854 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1629680 across 2026-27
+2026-10-28 23:09:09,951 - INFO - Saved data for player 1629680 to daily_data/2027/1629680.csv
+2026-10-28 23:09:09,952 - INFO - Processing 1629750 - 1610612765.0 for 2027 (40/115)
+2026-10-28 23:09:09,952 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629750  2026-27
+2026-10-28 23:09:11,176 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629750 across 2026-27
+2026-10-28 23:09:13,178 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629750  2026-27
+2026-10-28 23:09:13,956 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1629750 across 2026-27
+2026-10-28 23:09:18,243 - INFO - Saved data for player 1629750 to daily_data/2027/1629750.csv
+2026-10-28 23:09:18,243 - INFO - Progress: 40/115 players processed (34.8%)
+2026-10-28 23:09:18,244 - INFO - Processing 1630164 - 1610612752.0 for 2027 (41/115)
+2026-10-28 23:09:18,244 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630164  2026-27
+2026-10-28 23:09:19,136 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630164 across 2026-27
+2026-10-28 23:09:21,138 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630164  2026-27
+2026-10-28 23:09:35,453 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630164 across 2026-27
+2026-10-28 23:09:40,068 - INFO - Saved data for player 1630164 to daily_data/2027/1630164.csv
+2026-10-28 23:09:40,069 - INFO - Processing 1630166 - 1610612757.0 for 2027 (42/115)
+2026-10-28 23:09:40,069 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630166  2026-27
+2026-10-28 23:09:42,669 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630166 across 2026-27
+2026-10-28 23:09:44,672 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630166  2026-27
+2026-10-28 23:09:45,818 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630166 across 2026-27
+2026-10-28 23:09:49,995 - INFO - Saved data for player 1630166 to daily_data/2027/1630166.csv
+2026-10-28 23:09:49,996 - INFO - Processing 1630170 - 1610612759.0 for 2027 (43/115)
+2026-10-28 23:09:49,996 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630170  2026-27
+2026-10-28 23:09:51,100 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630170 across 2026-27
+2026-10-28 23:09:53,102 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630170  2026-27
+2026-10-28 23:09:53,831 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630170 across 2026-27
+2026-10-28 23:09:57,992 - INFO - Saved data for player 1630170 to daily_data/2027/1630170.csv
+2026-10-28 23:09:57,992 - INFO - Processing 1630173 - 1610612758.0 for 2027 (44/115)
+2026-10-28 23:09:57,992 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1630173  2026-27
+2026-10-28 23:09:59,399 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1630173 across 2026-27
+2026-10-28 23:10:01,401 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1630173  2026-27
+2026-10-28 23:10:03,208 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1630173 across 2026-27
+2026-10-28 23:10:08,142 - INFO - Saved data for player 1630173 to daily_data/2027/1630173.csv
+2026-10-28 23:10:08,143 - INFO - Processing 1630194 - 1610612765.0 for 2027 (45/115)
+2026-10-28 23:10:08,143 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630194  2026-27
+2026-10-28 23:10:12,236 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630194 across 2026-27
+2026-10-28 23:10:14,238 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630194  2026-27
+2026-10-28 23:10:15,405 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630194 across 2026-27
+2026-10-28 23:10:19,976 - INFO - Saved data for player 1630194 to daily_data/2027/1630194.csv
+2026-10-28 23:10:19,976 - INFO - Processing 1630198 - 1610612765.0 for 2027 (46/115)
+2026-10-28 23:10:19,976 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630198  2026-27
+2026-10-28 23:10:33,975 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630198 across 2026-27
+2026-10-28 23:10:35,976 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630198  2026-27
+2026-10-28 23:10:37,349 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630198 across 2026-27
+2026-10-28 23:10:41,797 - INFO - Saved data for player 1630198 to daily_data/2027/1630198.csv
+2026-10-28 23:10:41,797 - INFO - Processing 1630202 - 1610612738.0 for 2027 (47/115)
+2026-10-28 23:10:41,798 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630202  2026-27
+2026-10-28 23:10:42,733 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630202 across 2026-27
+2026-10-28 23:10:44,735 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630202  2026-27
+2026-10-28 23:10:45,992 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630202 across 2026-27
+2026-10-28 23:10:50,633 - INFO - Saved data for player 1630202 to daily_data/2027/1630202.csv
+2026-10-28 23:10:50,634 - INFO - Processing 1630249 - 1610612757.0 for 2027 (48/115)
+2026-10-28 23:10:50,634 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630249  2026-27
+2026-10-28 23:10:51,538 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630249 across 2026-27
+2026-10-28 23:10:53,540 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630249  2026-27
+2026-10-28 23:10:54,781 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630249 across 2026-27
+2026-10-28 23:10:59,666 - INFO - Saved data for player 1630249 to daily_data/2027/1630249.csv
+2026-10-28 23:10:59,667 - INFO - Processing 1630533 - 1610612747.0 for 2027 (49/115)
+2026-10-28 23:10:59,667 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630533  2026-27
+2026-10-28 23:11:01,258 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630533 across 2026-27
+2026-10-28 23:11:03,261 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630533  2026-27
+2026-10-28 23:11:04,319 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630533 across 2026-27
+2026-10-28 23:11:09,089 - INFO - Saved data for player 1630533 to daily_data/2027/1630533.csv
+2026-10-28 23:11:09,090 - INFO - Processing 1630540 - 1610612752.0 for 2027 (50/115)
+2026-10-28 23:11:09,090 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630540  2026-27
+2026-10-28 23:11:21,353 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630540 across 2026-27
+2026-10-28 23:11:23,355 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630540  2026-27
+2026-10-28 23:11:24,556 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630540 across 2026-27
+2026-10-28 23:11:28,951 - INFO - Saved data for player 1630540 to daily_data/2027/1630540.csv
+2026-10-28 23:11:28,951 - INFO - Progress: 50/115 players processed (43.5%)
+2026-10-28 23:11:28,952 - INFO - Processing 1630549 - 1610612751.0 for 2027 (51/115)
+2026-10-28 23:11:28,952 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1630549  2026-27
+2026-10-28 23:11:29,615 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1630549 across 2026-27
+2026-10-28 23:11:31,617 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1630549  2026-27
+2026-10-28 23:11:49,815 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1630549&TeamId=1610612751&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.23 seconds (attempt 1/3)
+2026-10-28 23:11:52,839 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1630549 across 2026-27
+2026-10-28 23:11:57,063 - INFO - Saved data for player 1630549 to daily_data/2027/1630549.csv
+2026-10-28 23:11:57,064 - INFO - Processing 1630559 - 1610612747.0 for 2027 (52/115)
+2026-10-28 23:11:57,064 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630559  2026-27
+2026-10-28 23:11:57,905 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630559 across 2026-27
+2026-10-28 23:11:59,907 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630559  2026-27
+2026-10-28 23:12:00,994 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630559 across 2026-27
+2026-10-28 23:12:05,153 - INFO - Saved data for player 1630559 to daily_data/2027/1630559.csv
+2026-10-28 23:12:05,153 - INFO - Processing 1630568 - 1610612738.0 for 2027 (53/115)
+2026-10-28 23:12:05,153 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630568  2026-27
+2026-10-28 23:12:06,088 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630568 across 2026-27
+2026-10-28 23:12:08,090 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630568  2026-27
+2026-10-28 23:12:08,801 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630568 across 2026-27
+2026-10-28 23:12:13,494 - INFO - Saved data for player 1630568 to daily_data/2027/1630568.csv
+2026-10-28 23:12:13,495 - INFO - Processing 1630572 - 1610612747.0 for 2027 (54/115)
+2026-10-28 23:12:13,495 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630572  2026-27
+2026-10-28 23:12:14,484 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630572 across 2026-27
+2026-10-28 23:12:16,486 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630572  2026-27
+2026-10-28 23:12:17,232 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630572 across 2026-27
+2026-10-28 23:12:21,989 - INFO - Saved data for player 1630572 to daily_data/2027/1630572.csv
+2026-10-28 23:12:21,990 - INFO - Processing 1630573 - 1610612738.0 for 2027 (55/115)
+2026-10-28 23:12:21,990 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630573  2026-27
+2026-10-28 23:12:22,785 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630573 across 2026-27
+2026-10-28 23:12:24,788 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630573  2026-27
+2026-10-28 23:12:25,612 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1630573 across 2026-27
+2026-10-28 23:12:29,794 - INFO - Saved data for player 1630573 to daily_data/2027/1630573.csv
+2026-10-28 23:12:29,795 - INFO - Processing 1630577 - 1610612759.0 for 2027 (56/115)
+2026-10-28 23:12:29,795 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630577  2026-27
+2026-10-28 23:12:30,825 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630577 across 2026-27
+2026-10-28 23:12:32,828 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630577  2026-27
+2026-10-28 23:12:33,600 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1630577 across 2026-27
+2026-10-28 23:12:38,570 - INFO - Saved data for player 1630577 to daily_data/2027/1630577.csv
+2026-10-28 23:12:38,571 - INFO - Processing 1630595 - 1610612765.0 for 2027 (57/115)
+2026-10-28 23:12:38,571 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630595  2026-27
+2026-10-28 23:12:39,410 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630595 across 2026-27
+2026-10-28 23:12:41,412 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630595  2026-27
+2026-10-28 23:12:43,028 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1630595 across 2026-27
+2026-10-28 23:12:47,937 - INFO - Saved data for player 1630595 to daily_data/2027/1630595.csv
+2026-10-28 23:12:47,937 - INFO - Processing 1630631 - 1610612752.0 for 2027 (58/115)
+2026-10-28 23:12:47,937 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630631  2026-27
+2026-10-28 23:13:10,114 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1630631&TeamId=1610612752&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.41 seconds (attempt 1/3)
+2026-10-28 23:13:14,080 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630631 across 2026-27
+2026-10-28 23:13:16,082 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630631  2026-27
+2026-10-28 23:13:17,717 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1630631 across 2026-27
+2026-10-28 23:13:21,753 - INFO - Saved data for player 1630631 to daily_data/2027/1630631.csv
+2026-10-28 23:13:21,754 - INFO - Processing 1630695 - 1610612757.0 for 2027 (59/115)
+2026-10-28 23:13:21,754 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630695  2026-27
+2026-10-28 23:13:22,298 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630695 across 2026-27
+2026-10-28 23:13:24,300 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630695  2026-27
+2026-10-28 23:13:25,310 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630695 across 2026-27
+2026-10-28 23:13:29,492 - INFO - Saved data for player 1630695 to daily_data/2027/1630695.csv
+2026-10-28 23:13:29,493 - INFO - Processing 1630702 - 1610612747.0 for 2027 (60/115)
+2026-10-28 23:13:29,493 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630702  2026-27
+2026-10-28 23:13:30,176 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630702 across 2026-27
+2026-10-28 23:13:32,178 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630702  2026-27
+2026-10-28 23:13:32,959 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1630702 across 2026-27
+2026-10-28 23:13:37,022 - INFO - Saved data for player 1630702 to daily_data/2027/1630702.csv
+2026-10-28 23:13:37,022 - INFO - Progress: 60/115 players processed (52.2%)
+2026-10-28 23:13:37,022 - INFO - Processing 1630703 - 1610612757.0 for 2027 (61/115)
+2026-10-28 23:13:37,023 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630703  2026-27
+2026-10-28 23:13:37,870 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630703 across 2026-27
+2026-10-28 23:13:39,872 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630703  2026-27
+2026-10-28 23:13:40,820 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1630703 across 2026-27
+2026-10-28 23:13:45,478 - INFO - Saved data for player 1630703 to daily_data/2027/1630703.csv
+2026-10-28 23:13:45,479 - INFO - Processing 1631099 - 1610612758.0 for 2027 (62/115)
+2026-10-28 23:13:45,479 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631099  2026-27
+2026-10-28 23:14:03,666 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1631099&TeamId=1610612758&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.47 seconds (attempt 1/3)
+2026-10-28 23:14:07,513 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631099 across 2026-27
+2026-10-28 23:14:09,515 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631099  2026-27
+2026-10-28 23:14:11,134 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631099 across 2026-27
+2026-10-28 23:14:15,287 - INFO - Saved data for player 1631099 to daily_data/2027/1631099.csv
+2026-10-28 23:14:15,287 - INFO - Processing 1631105 - 1610612765.0 for 2027 (63/115)
+2026-10-28 23:14:15,287 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1631105  2026-27
+2026-10-28 23:14:16,994 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1631105 across 2026-27
+2026-10-28 23:14:18,995 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1631105  2026-27
+2026-10-28 23:14:20,316 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1631105 across 2026-27
+2026-10-28 23:14:25,033 - INFO - Saved data for player 1631105 to daily_data/2027/1631105.csv
+2026-10-28 23:14:25,033 - INFO - Processing 1631117 - 1610612747.0 for 2027 (64/115)
+2026-10-28 23:14:25,033 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631117  2026-27
+2026-10-28 23:14:26,296 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631117 across 2026-27
+2026-10-28 23:14:28,299 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631117  2026-27
+2026-10-28 23:14:29,932 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631117 across 2026-27
+2026-10-28 23:14:34,124 - INFO - Saved data for player 1631117 to daily_data/2027/1631117.csv
+2026-10-28 23:14:34,125 - INFO - Processing 1631165 - 1610612751.0 for 2027 (65/115)
+2026-10-28 23:14:34,125 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631165  2026-27
+2026-10-28 23:14:35,782 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631165 across 2026-27
+2026-10-28 23:14:37,785 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631165  2026-27
+2026-10-28 23:14:40,161 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631165 across 2026-27
+2026-10-28 23:14:45,118 - INFO - Saved data for player 1631165 to daily_data/2027/1631165.csv
+2026-10-28 23:14:45,119 - INFO - Processing 1631169 - 1610612751.0 for 2027 (66/115)
+2026-10-28 23:14:45,119 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631169  2026-27
+2026-10-28 23:14:46,683 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631169 across 2026-27
+2026-10-28 23:14:48,685 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631169  2026-27
+2026-10-28 23:14:50,068 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1631169 across 2026-27
+2026-10-28 23:14:55,021 - INFO - Saved data for player 1631169 to daily_data/2027/1631169.csv
+2026-10-28 23:14:55,022 - INFO - Processing 1631199 - 1610612738.0 for 2027 (67/115)
+2026-10-28 23:14:55,022 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631199  2026-27
+2026-10-28 23:14:55,681 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631199 across 2026-27
+2026-10-28 23:14:57,683 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631199  2026-27
+2026-10-28 23:14:59,389 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631199 across 2026-27
+2026-10-28 23:15:04,063 - INFO - Saved data for player 1631199 to daily_data/2027/1631199.csv
+2026-10-28 23:15:04,064 - INFO - Processing 1631222 - 1610612747.0 for 2027 (68/115)
+2026-10-28 23:15:04,064 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631222  2026-27
+2026-10-28 23:15:05,931 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631222 across 2026-27
+2026-10-28 23:15:07,933 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631222  2026-27
+2026-10-28 23:15:09,132 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1631222 across 2026-27
+2026-10-28 23:15:13,445 - INFO - Saved data for player 1631222 to daily_data/2027/1631222.csv
+2026-10-28 23:15:13,446 - INFO - Processing 1631248 - 1610612738.0 for 2027 (69/115)
+2026-10-28 23:15:13,446 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631248  2026-27
+2026-10-28 23:15:15,176 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631248 across 2026-27
+2026-10-28 23:15:17,177 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631248  2026-27
+2026-10-28 23:15:18,288 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1631248 across 2026-27
+2026-10-28 23:15:22,591 - INFO - Saved data for player 1631248 to daily_data/2027/1631248.csv
+2026-10-28 23:15:22,592 - INFO - Processing 1631321 - 1610612757.0 for 2027 (70/115)
+2026-10-28 23:15:22,592 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1631321  2026-27
+2026-10-28 23:15:42,810 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1631321&TeamId=1610612757&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.59 seconds (attempt 1/3)
+2026-10-28 23:15:46,403 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1631321 across 2026-27
+2026-10-28 23:15:48,405 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1631321  2026-27
+2026-10-28 23:15:49,183 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1631321 across 2026-27
+2026-10-28 23:15:53,657 - INFO - Saved data for player 1631321 to daily_data/2027/1631321.csv
+2026-10-28 23:15:53,657 - INFO - Progress: 70/115 players processed (60.9%)
+2026-10-28 23:15:53,658 - INFO - Processing 1631342 - 1610612758.0 for 2027 (71/115)
+2026-10-28 23:15:53,658 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631342  2026-27
+2026-10-28 23:15:54,712 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631342 across 2026-27
+2026-10-28 23:15:56,714 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631342  2026-27
+2026-10-28 23:15:57,424 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1631342 across 2026-27
+2026-10-28 23:16:01,968 - INFO - Saved data for player 1631342 to daily_data/2027/1631342.csv
+2026-10-28 23:16:01,969 - INFO - Processing 1641705 - 1610612759.0 for 2027 (72/115)
+2026-10-28 23:16:01,969 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1641705  2026-27
+2026-10-28 23:16:02,773 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1641705 across 2026-27
+2026-10-28 23:16:04,775 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1641705  2026-27
+2026-10-28 23:16:06,089 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1641705 across 2026-27
+2026-10-28 23:16:10,520 - INFO - Saved data for player 1641705 to daily_data/2027/1641705.csv
+2026-10-28 23:16:10,520 - INFO - Processing 1641709 - 1610612765.0 for 2027 (73/115)
+2026-10-28 23:16:10,521 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641709  2026-27
+2026-10-28 23:16:11,631 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641709 across 2026-27
+2026-10-28 23:16:13,634 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641709  2026-27
+2026-10-28 23:16:14,684 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641709 across 2026-27
+2026-10-28 23:16:19,380 - INFO - Saved data for player 1641709 to daily_data/2027/1641709.csv
+2026-10-28 23:16:19,381 - INFO - Processing 1641730 - 1610612751.0 for 2027 (74/115)
+2026-10-28 23:16:19,381 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1641730  2026-27
+2026-10-28 23:16:27,589 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1641730&TeamId=1610612751&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.37 seconds (attempt 1/3)
+2026-10-28 23:16:30,976 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1641730 across 2026-27
+2026-10-28 23:16:32,979 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1641730  2026-27
+2026-10-28 23:16:33,892 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1641730 across 2026-27
+2026-10-28 23:16:38,462 - INFO - Saved data for player 1641730 to daily_data/2027/1641730.csv
+2026-10-28 23:16:38,462 - INFO - Processing 1641739 - 1610612757.0 for 2027 (75/115)
+2026-10-28 23:16:38,462 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1641739  2026-27
+2026-10-28 23:16:39,102 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1641739 across 2026-27
+2026-10-28 23:16:41,104 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1641739  2026-27
+2026-10-28 23:16:41,842 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1641739 across 2026-27
+2026-10-28 23:16:46,758 - INFO - Saved data for player 1641739 to daily_data/2027/1641739.csv
+2026-10-28 23:16:46,759 - INFO - Processing 1641775 - 1610612738.0 for 2027 (76/115)
+2026-10-28 23:16:46,759 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1641775  2026-27
+2026-10-28 23:16:47,735 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1641775 across 2026-27
+2026-10-28 23:16:49,737 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1641775  2026-27
+2026-10-28 23:16:50,453 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1641775 across 2026-27
+2026-10-28 23:16:54,836 - INFO - Saved data for player 1641775 to daily_data/2027/1641775.csv
+2026-10-28 23:16:54,837 - INFO - Processing 1641778 - 1610612758.0 for 2027 (77/115)
+2026-10-28 23:16:54,837 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1641778  2026-27
+2026-10-28 23:16:55,612 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1641778 across 2026-27
+2026-10-28 23:16:57,614 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1641778  2026-27
+2026-10-28 23:16:58,358 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1641778 across 2026-27
+2026-10-28 23:17:02,957 - INFO - Saved data for player 1641778 to daily_data/2027/1641778.csv
+2026-10-28 23:17:02,958 - INFO - Processing 1641842 - 1610612765.0 for 2027 (78/115)
+2026-10-28 23:17:02,958 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641842  2026-27
+2026-10-28 23:17:04,436 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641842 across 2026-27
+2026-10-28 23:17:06,438 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641842  2026-27
+2026-10-28 23:17:07,662 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641842 across 2026-27
+2026-10-28 23:17:11,927 - INFO - Saved data for player 1641842 to daily_data/2027/1641842.csv
+2026-10-28 23:17:11,928 - INFO - Processing 1641989 - 1610612765.0 for 2027 (79/115)
+2026-10-28 23:17:11,928 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641989  2026-27
+2026-10-28 23:17:28,127 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1641989&TeamId=1610612765&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.44 seconds (attempt 1/3)
+2026-10-28 23:17:31,115 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641989 across 2026-27
+2026-10-28 23:17:33,117 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641989  2026-27
+2026-10-28 23:17:33,893 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1641989 across 2026-27
+2026-10-28 23:17:38,895 - INFO - Saved data for player 1641989 to daily_data/2027/1641989.csv
+2026-10-28 23:17:38,896 - INFO - Processing 1642264 - 1610612759.0 for 2027 (80/115)
+2026-10-28 23:17:38,896 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642264  2026-27
+2026-10-28 23:18:03,084 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1642264&TeamId=1610612759&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.85 seconds (attempt 1/3)
+2026-10-28 23:18:07,285 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642264 across 2026-27
+2026-10-28 23:18:09,288 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642264  2026-27
+2026-10-28 23:18:10,081 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642264 across 2026-27
+2026-10-28 23:18:14,508 - INFO - Saved data for player 1642264 to daily_data/2027/1642264.csv
+2026-10-28 23:18:14,508 - INFO - Progress: 80/115 players processed (69.6%)
+2026-10-28 23:18:14,509 - INFO - Processing 1642270 - 1610612757.0 for 2027 (81/115)
+2026-10-28 23:18:14,509 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642270  2026-27
+2026-10-28 23:18:15,175 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642270 across 2026-27
+2026-10-28 23:18:17,175 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642270  2026-27
+2026-10-28 23:18:17,803 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642270 across 2026-27
+2026-10-28 23:18:22,220 - INFO - Saved data for player 1642270 to daily_data/2027/1642270.csv
+2026-10-28 23:18:22,220 - INFO - Processing 1642278 - 1610612752.0 for 2027 (82/115)
+2026-10-28 23:18:22,220 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642278  2026-27
+2026-10-28 23:18:23,882 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642278 across 2026-27
+2026-10-28 23:18:25,885 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642278  2026-27
+2026-10-28 23:18:26,959 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642278 across 2026-27
+2026-10-28 23:18:31,757 - INFO - Saved data for player 1642278 to daily_data/2027/1642278.csv
+2026-10-28 23:18:31,757 - INFO - Processing 1642284 - 1610612758.0 for 2027 (83/115)
+2026-10-28 23:18:31,757 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642284  2026-27
+2026-10-28 23:18:32,345 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642284 across 2026-27
+2026-10-28 23:18:34,347 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642284  2026-27
+2026-10-28 23:18:35,568 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642284 across 2026-27
+2026-10-28 23:18:40,392 - INFO - Saved data for player 1642284 to daily_data/2027/1642284.csv
+2026-10-28 23:18:40,393 - INFO - Processing 1642355 - 1610612747.0 for 2027 (84/115)
+2026-10-28 23:18:40,393 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1642355  2026-27
+2026-10-28 23:18:40,968 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1642355 across 2026-27
+2026-10-28 23:18:42,970 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1642355  2026-27
+2026-10-28 23:18:43,672 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1642355 across 2026-27
+2026-10-28 23:18:48,216 - INFO - Saved data for player 1642355 to daily_data/2027/1642355.csv
+2026-10-28 23:18:48,217 - INFO - Processing 1642357 - 1610612759.0 for 2027 (85/115)
+2026-10-28 23:18:48,217 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642357  2026-27
+2026-10-28 23:18:48,852 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642357 across 2026-27
+2026-10-28 23:18:50,854 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642357  2026-27
+2026-10-28 23:18:52,829 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642357 across 2026-27
+2026-10-28 23:18:57,141 - INFO - Saved data for player 1642357 to daily_data/2027/1642357.csv
+2026-10-28 23:18:57,141 - INFO - Processing 1642359 - 1610612752.0 for 2027 (86/115)
+2026-10-28 23:18:57,142 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642359  2026-27
+2026-10-28 23:18:57,636 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642359 across 2026-27
+2026-10-28 23:18:59,638 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642359  2026-27
+2026-10-28 23:19:15,660 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642359 across 2026-27
+2026-10-28 23:19:20,325 - INFO - Saved data for player 1642359 to daily_data/2027/1642359.csv
+2026-10-28 23:19:20,326 - INFO - Processing 1642363 - 1610612758.0 for 2027 (87/115)
+2026-10-28 23:19:20,326 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642363  2026-27
+2026-10-28 23:19:21,153 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642363 across 2026-27
+2026-10-28 23:19:23,155 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642363  2026-27
+2026-10-28 23:19:24,552 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642363 across 2026-27
+2026-10-28 23:19:29,157 - INFO - Saved data for player 1642363 to daily_data/2027/1642363.csv
+2026-10-28 23:19:29,157 - INFO - Processing 1642367 - 1610612758.0 for 2027 (88/115)
+2026-10-28 23:19:29,157 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642367  2026-27
+2026-10-28 23:19:30,338 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642367 across 2026-27
+2026-10-28 23:19:32,339 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642367  2026-27
+2026-10-28 23:19:38,509 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1642367&TeamId=1610612758&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.98 seconds (attempt 1/3)
+2026-10-28 23:19:42,229 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1642367 across 2026-27
+2026-10-28 23:19:46,939 - INFO - Saved data for player 1642367 to daily_data/2027/1642367.csv
+2026-10-28 23:19:46,940 - INFO - Processing 1642403 - 1610612765.0 for 2027 (89/115)
+2026-10-28 23:19:46,940 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642403  2026-27
+2026-10-28 23:19:47,514 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642403 across 2026-27
+2026-10-28 23:19:49,517 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642403  2026-27
+2026-10-28 23:19:51,460 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642403 across 2026-27
+2026-10-28 23:19:55,668 - INFO - Saved data for player 1642403 to daily_data/2027/1642403.csv
+2026-10-28 23:19:55,669 - INFO - Processing 1642404 - 1610612765.0 for 2027 (90/115)
+2026-10-28 23:19:55,669 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642404  2026-27
+2026-10-28 23:19:57,836 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1642404&TeamId=1610612765&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.64 seconds (attempt 1/3)
+2026-10-28 23:20:01,543 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642404 across 2026-27
+2026-10-28 23:20:03,545 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642404  2026-27
+2026-10-28 23:20:05,107 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642404 across 2026-27
+2026-10-28 23:20:09,186 - INFO - Saved data for player 1642404 to daily_data/2027/1642404.csv
+2026-10-28 23:20:09,186 - INFO - Progress: 90/115 players processed (78.3%)
+2026-10-28 23:20:09,187 - INFO - Processing 1642449 - 1610612765.0 for 2027 (91/115)
+2026-10-28 23:20:09,187 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642449  2026-27
+2026-10-28 23:20:10,154 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642449 across 2026-27
+2026-10-28 23:20:12,156 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642449  2026-27
+2026-10-28 23:20:13,329 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642449 across 2026-27
+2026-10-28 23:20:17,671 - INFO - Saved data for player 1642449 to daily_data/2027/1642449.csv
+2026-10-28 23:20:17,672 - INFO - Processing 1642450 - 1610612765.0 for 2027 (92/115)
+2026-10-28 23:20:17,672 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642450  2026-27
+2026-10-28 23:20:18,460 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642450 across 2026-27
+2026-10-28 23:20:20,462 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642450  2026-27
+2026-10-28 23:20:21,527 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1642450 across 2026-27
+2026-10-28 23:20:26,359 - INFO - Saved data for player 1642450 to daily_data/2027/1642450.csv
+2026-10-28 23:20:26,360 - INFO - Processing 1642844 - 1610612759.0 for 2027 (93/115)
+2026-10-28 23:20:26,360 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642844  2026-27
+2026-10-28 23:20:27,141 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642844 across 2026-27
+2026-10-28 23:20:29,142 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642844  2026-27
+2026-10-28 23:20:29,872 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642844 across 2026-27
+2026-10-28 23:20:34,804 - INFO - Saved data for player 1642844 to daily_data/2027/1642844.csv
+2026-10-28 23:20:34,804 - INFO - Processing 1642849 - 1610612751.0 for 2027 (94/115)
+2026-10-28 23:20:34,805 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642849  2026-27
+2026-10-28 23:20:35,464 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642849 across 2026-27
+2026-10-28 23:20:37,466 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642849  2026-27
+2026-10-28 23:20:38,314 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642849 across 2026-27
+2026-10-28 23:20:43,007 - INFO - Saved data for player 1642849 to daily_data/2027/1642849.csv
+2026-10-28 23:20:43,008 - INFO - Processing 1642856 - 1610612751.0 for 2027 (95/115)
+2026-10-28 23:20:43,008 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642856  2026-27
+2026-10-28 23:20:43,940 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642856 across 2026-27
+2026-10-28 23:20:45,942 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642856  2026-27
+2026-10-28 23:20:47,090 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642856 across 2026-27
+2026-10-28 23:20:51,296 - INFO - Saved data for player 1642856 to daily_data/2027/1642856.csv
+2026-10-28 23:20:51,297 - INFO - Processing 1642864 - 1610612738.0 for 2027 (96/115)
+2026-10-28 23:20:51,297 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1642864  2026-27
+2026-10-28 23:20:52,017 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1642864 across 2026-27
+2026-10-28 23:20:54,019 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1642864  2026-27
+2026-10-28 23:20:54,806 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1642864 across 2026-27
+2026-10-28 23:20:58,983 - INFO - Saved data for player 1642864 to daily_data/2027/1642864.csv
+2026-10-28 23:20:58,983 - INFO - Processing 1642868 - 1610612759.0 for 2027 (97/115)
+2026-10-28 23:20:58,984 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642868  2026-27
+2026-10-28 23:20:59,726 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642868 across 2026-27
+2026-10-28 23:21:01,728 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642868  2026-27
+2026-10-28 23:21:02,705 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1642868 across 2026-27
+2026-10-28 23:21:06,976 - INFO - Saved data for player 1642868 to daily_data/2027/1642868.csv
+2026-10-28 23:21:06,976 - INFO - Processing 1642874 - 1610612751.0 for 2027 (98/115)
+2026-10-28 23:21:06,976 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642874  2026-27
+2026-10-28 23:21:08,056 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642874 across 2026-27
+2026-10-28 23:21:10,059 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642874  2026-27
+2026-10-28 23:21:36,333 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1642874&TeamId=1610612751&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.72 seconds (attempt 1/3)
+2026-10-28 23:21:40,473 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642874 across 2026-27
+2026-10-28 23:21:44,932 - INFO - Saved data for player 1642874 to daily_data/2027/1642874.csv
+2026-10-28 23:21:44,933 - INFO - Processing 1642879 - 1610612751.0 for 2027 (99/115)
+2026-10-28 23:21:44,933 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642879  2026-27
+2026-10-28 23:21:45,414 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642879 across 2026-27
+2026-10-28 23:21:47,416 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642879  2026-27
+2026-10-28 23:21:48,379 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642879 across 2026-27
+2026-10-28 23:21:52,648 - INFO - Saved data for player 1642879 to daily_data/2027/1642879.csv
+2026-10-28 23:21:52,649 - INFO - Processing 1642885 - 1610612752.0 for 2027 (100/115)
+2026-10-28 23:21:52,649 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642885  2026-27
+2026-10-28 23:21:53,296 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642885 across 2026-27
+2026-10-28 23:21:55,298 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642885  2026-27
+2026-10-28 23:21:56,379 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1642885 across 2026-27
+2026-10-28 23:22:00,805 - INFO - Saved data for player 1642885 to daily_data/2027/1642885.csv
+2026-10-28 23:22:00,805 - INFO - Progress: 100/115 players processed (87.0%)
+2026-10-28 23:22:00,805 - INFO - Processing 1642905 - 1610612757.0 for 2027 (101/115)
+2026-10-28 23:22:00,806 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642905  2026-27
+2026-10-28 23:22:10,987 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly1OnFloor=1642905&TeamId=1610612757&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.44 seconds (attempt 1/3)
+2026-10-28 23:22:14,145 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642905 across 2026-27
+2026-10-28 23:22:16,147 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642905  2026-27
+2026-10-28 23:22:17,478 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1642905 across 2026-27
+2026-10-28 23:22:22,082 - INFO - Saved data for player 1642905 to daily_data/2027/1642905.csv
+2026-10-28 23:22:22,083 - INFO - Processing 1642962 - 1610612751.0 for 2027 (102/115)
+2026-10-28 23:22:22,083 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642962  2026-27
+2026-10-28 23:22:43,039 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642962 across 2026-27
+2026-10-28 23:22:45,041 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642962  2026-27
+2026-10-28 23:22:46,599 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1642962 across 2026-27
+2026-10-28 23:22:51,621 - INFO - Saved data for player 1642962 to daily_data/2027/1642962.csv
+2026-10-28 23:22:51,622 - INFO - Processing 1643022 - 1610612752.0 for 2027 (103/115)
+2026-10-28 23:22:51,622 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1643022  2026-27
+2026-10-28 23:23:19,842 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1643022 across 2026-27
+2026-10-28 23:23:21,844 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1643022  2026-27
+2026-10-28 23:23:24,440 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612752, Player ID: 1643022 across 2026-27
+2026-10-28 23:23:29,351 - INFO - Saved data for player 1643022 to daily_data/2027/1643022.csv
+2026-10-28 23:23:29,352 - INFO - Processing 1643024 - 1610612747.0 for 2027 (104/115)
+2026-10-28 23:23:29,352 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1643024  2026-27
+2026-10-28 23:23:36,371 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1643024 across 2026-27
+2026-10-28 23:23:38,373 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1643024  2026-27
+2026-10-28 23:23:54,081 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612747, Player ID: 1643024 across 2026-27
+2026-10-28 23:23:58,441 - INFO - Saved data for player 1643024 to daily_data/2027/1643024.csv
+2026-10-28 23:23:58,442 - INFO - Processing 1643052 - 1610612751.0 for 2027 (105/115)
+2026-10-28 23:23:58,442 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643052  2026-27
+2026-10-28 23:24:08,675 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643052 across 2026-27
+2026-10-28 23:24:10,677 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643052  2026-27
+2026-10-28 23:24:18,531 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643052 across 2026-27
+2026-10-28 23:24:23,352 - INFO - Saved data for player 1643052 to daily_data/2027/1643052.csv
+2026-10-28 23:24:23,352 - INFO - Processing 1643257 - 1610612757.0 for 2027 (106/115)
+2026-10-28 23:24:23,352 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1643257  2026-27
+2026-10-28 23:24:24,005 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1643257 across 2026-27
+2026-10-28 23:24:26,007 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1643257  2026-27
+2026-10-28 23:24:29,762 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612757, Player ID: 1643257 across 2026-27
+2026-10-28 23:24:33,919 - INFO - Saved data for player 1643257 to daily_data/2027/1643257.csv
+2026-10-28 23:24:33,919 - INFO - Processing 1643411 - 1610612758.0 for 2027 (107/115)
+2026-10-28 23:24:33,919 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643411  2026-27
+2026-10-28 23:24:35,994 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643411 across 2026-27
+2026-10-28 23:24:37,996 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643411  2026-27
+2026-10-28 23:24:46,872 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643411 across 2026-27
+2026-10-28 23:24:51,560 - INFO - Saved data for player 1643411 to daily_data/2027/1643411.csv
+2026-10-28 23:24:51,560 - INFO - Processing 1643414 - 1610612751.0 for 2027 (108/115)
+2026-10-28 23:24:51,561 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643414  2026-27
+2026-10-28 23:24:57,002 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643414 across 2026-27
+2026-10-28 23:24:59,004 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643414  2026-27
+2026-10-28 23:24:59,959 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643414 across 2026-27
+2026-10-28 23:25:04,344 - INFO - Saved data for player 1643414 to daily_data/2027/1643414.csv
+2026-10-28 23:25:04,345 - INFO - Processing 1643416 - 1610612738.0 for 2027 (109/115)
+2026-10-28 23:25:04,345 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1643416  2026-27
+2026-10-28 23:25:06,957 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1643416 across 2026-27
+2026-10-28 23:25:08,957 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1643416  2026-27
+2026-10-28 23:25:17,021 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612738, Player ID: 1643416 across 2026-27
+2026-10-28 23:25:21,608 - INFO - Saved data for player 1643416 to daily_data/2027/1643416.csv
+2026-10-28 23:25:21,609 - INFO - Processing 1643536 - 1610612765.0 for 2027 (110/115)
+2026-10-28 23:25:21,609 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1643536  2026-27
+2026-10-28 23:25:22,845 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1643536 across 2026-27
+2026-10-28 23:25:24,847 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1643536  2026-27
+2026-10-28 23:25:26,389 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612765, Player ID: 1643536 across 2026-27
+2026-10-28 23:25:30,982 - INFO - Saved data for player 1643536 to daily_data/2027/1643536.csv
+2026-10-28 23:25:30,982 - INFO - Progress: 110/115 players processed (95.7%)
+2026-10-28 23:25:30,982 - INFO - Processing 1643538 - 1610612751.0 for 2027 (111/115)
+2026-10-28 23:25:30,983 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643538  2026-27
+2026-10-28 23:25:42,009 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643538 across 2026-27
+2026-10-28 23:25:44,011 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643538  2026-27
+2026-10-28 23:25:45,736 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612751, Player ID: 1643538 across 2026-27
+2026-10-28 23:25:49,837 - INFO - Saved data for player 1643538 to daily_data/2027/1643538.csv
+2026-10-28 23:25:49,838 - INFO - Processing 1643542 - 1610612759.0 for 2027 (112/115)
+2026-10-28 23:25:49,838 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643542  2026-27
+2026-10-28 23:25:51,557 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643542 across 2026-27
+2026-10-28 23:25:53,559 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643542  2026-27
+2026-10-28 23:25:54,697 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643542 across 2026-27
+2026-10-28 23:25:58,844 - INFO - Saved data for player 1643542 to daily_data/2027/1643542.csv
+2026-10-28 23:25:58,844 - INFO - Processing 1643551 - 1610612759.0 for 2027 (113/115)
+2026-10-28 23:25:58,844 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643551  2026-27
+2026-10-28 23:26:01,112 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643551 across 2026-27
+2026-10-28 23:26:03,114 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643551  2026-27
+2026-10-28 23:26:04,466 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643551 across 2026-27
+2026-10-28 23:26:09,095 - INFO - Saved data for player 1643551 to daily_data/2027/1643551.csv
+2026-10-28 23:26:09,095 - INFO - Processing 1643567 - 1610612758.0 for 2027 (114/115)
+2026-10-28 23:26:09,095 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643567  2026-27
+2026-10-28 23:26:37,143 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643567 across 2026-27
+2026-10-28 23:26:39,145 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643567  2026-27
+2026-10-28 23:26:40,393 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612758, Player ID: 1643567 across 2026-27
+2026-10-28 23:26:44,690 - INFO - Saved data for player 1643567 to daily_data/2027/1643567.csv
+2026-10-28 23:26:44,691 - INFO - Processing 1643576 - 1610612759.0 for 2027 (115/115)
+2026-10-28 23:26:44,691 - INFO - Fetching ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643576  2026-27
+2026-10-28 23:26:45,325 - INFO - Fetched ON Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643576 across 2026-27
+2026-10-28 23:26:47,327 - INFO - Fetching OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643576  2026-27
+2026-10-28 23:27:03,514 - WARNING - Request failed: 500 Server Error: Internal Server Error for url: https://api.pbpstats.com/get-wowy-stats/nba?0Exactly0OnFloor=1643576&TeamId=1610612759&Season=2026-27&SeasonType=Regular+Season&Type=Player. Retrying in 2.70 seconds (attempt 1/3)
+2026-10-28 23:27:08,069 - INFO - Fetched OFF Regular Season WOWY stats for Team ID: 1610612759, Player ID: 1643576 across 2026-27
+2026-10-28 23:27:12,740 - INFO - Saved data for player 1643576 to daily_data/2027/1643576.csv
+2026-10-28 23:27:12,740 - INFO - Successfully processed 115/115 players. Copying files to main folder...
+2026-10-28 23:27:12,741 - INFO - Copied 1642874.csv to main data folder
+2026-10-28 23:27:12,741 - INFO - Copied 1642868.csv to main data folder
+2026-10-28 23:27:12,741 - INFO - Copied 1629008.csv to main data folder
+2026-10-28 23:27:12,742 - INFO - Copied 1642357.csv to main data folder
+2026-10-28 23:27:12,742 - INFO - Copied 1630572.csv to main data folder
+2026-10-28 23:27:12,742 - INFO - Copied 1629011.csv to main data folder
+2026-10-28 23:27:12,743 - INFO - Copied 1630695.csv to main data folder
+2026-10-28 23:27:12,743 - INFO - Copied 1642403.csv to main data folder
+2026-10-28 23:27:12,743 - INFO - Copied 1631169.csv to main data folder
+2026-10-28 23:27:12,744 - INFO - Copied 1642355.csv to main data folder
+2026-10-28 23:27:12,744 - INFO - Copied 1630198.csv to main data folder
+2026-10-28 23:27:12,745 - INFO - Copied 1628969.csv to main data folder
+2026-10-28 23:27:12,745 - INFO - Copied 1630577.csv to main data folder
+2026-10-28 23:27:12,745 - INFO - Copied 1630703.csv to main data folder
+2026-10-28 23:27:12,745 - INFO - Copied 1631117.csv to main data folder
+2026-10-28 23:27:12,746 - INFO - Copied 1641730.csv to main data folder
+2026-10-28 23:27:12,746 - INFO - Copied 1628368.csv to main data folder
+2026-10-28 23:27:12,747 - INFO - Copied 1643576.csv to main data folder
+2026-10-28 23:27:12,747 - INFO - Copied 1630533.csv to main data folder
+2026-10-28 23:27:12,747 - INFO - Copied 1642849.csv to main data folder
+2026-10-28 23:27:12,748 - INFO - Copied 1630595.csv to main data folder
+2026-10-28 23:27:12,748 - INFO - Copied 1629640.csv to main data folder
+2026-10-28 23:27:12,748 - INFO - Copied 1628973.csv to main data folder
+2026-10-28 23:27:12,749 - INFO - Copied 1630540.csv to main data folder
+2026-10-28 23:27:12,749 - INFO - Copied 1628436.csv to main data folder
+2026-10-28 23:27:12,749 - INFO - Copied 1642450.csv to main data folder
+2026-10-28 23:27:12,750 - INFO - Copied 1628401.csv to main data folder
+2026-10-28 23:27:12,750 - INFO - Copied 1642359.csv to main data folder
+2026-10-28 23:27:12,750 - INFO - Copied 1630631.csv to main data folder
+2026-10-28 23:27:12,751 - INFO - Copied 1641709.csv to main data folder
+2026-10-28 23:27:12,751 - INFO - Copied 1630549.csv to main data folder
+2026-10-28 23:27:12,751 - INFO - Copied 1642270.csv to main data folder
+2026-10-28 23:27:12,752 - INFO - Copied 203903.csv to main data folder
+2026-10-28 23:27:12,752 - INFO - Copied 1629162.csv to main data folder
+2026-10-28 23:27:12,752 - INFO - Copied 1628369.csv to main data folder
+2026-10-28 23:27:12,753 - INFO - Copied 1641775.csv to main data folder
+2026-10-28 23:27:12,753 - INFO - Copied 1630173.csv to main data folder
+2026-10-28 23:27:12,753 - INFO - Copied 1642404.csv to main data folder
+2026-10-28 23:27:12,754 - INFO - Copied 1628404.csv to main data folder
+2026-10-28 23:27:12,754 - INFO - Copied 1643257.csv to main data folder
+2026-10-28 23:27:12,754 - INFO - Copied 1642264.csv to main data folder
+2026-10-28 23:27:12,755 - INFO - Copied 1630573.csv to main data folder
+2026-10-28 23:27:12,755 - INFO - Copied 1643551.csv to main data folder
+2026-10-28 23:27:12,755 - INFO - Copied 1628370.csv to main data folder
+2026-10-28 23:27:12,756 - INFO - Copied 1630559.csv to main data folder
+2026-10-28 23:27:12,756 - INFO - Copied 1629680.csv to main data folder
+2026-10-28 23:27:12,756 - INFO - Copied 1643536.csv to main data folder
+2026-10-28 23:27:12,757 - INFO - Copied 1627752.csv to main data folder
+2026-10-28 23:27:12,757 - INFO - Copied 1630194.csv to main data folder
+2026-10-28 23:27:12,757 - INFO - Copied 1629656.csv to main data folder
+2026-10-28 23:27:12,758 - INFO - Copied 1631099.csv to main data folder
+2026-10-28 23:27:12,758 - INFO - Copied 202331.csv to main data folder
+2026-10-28 23:27:12,758 - INFO - Copied 1630202.csv to main data folder
+2026-10-28 23:27:12,759 - INFO - Copied 1629130.csv to main data folder
+2026-10-28 23:27:12,759 - INFO - Copied 1642864.csv to main data folder
+2026-10-28 23:27:12,759 - INFO - Copied 1642284.csv to main data folder
+2026-10-28 23:27:12,760 - INFO - Copied 1642278.csv to main data folder
+2026-10-28 23:27:12,760 - INFO - Copied 1641705.csv to main data folder
+2026-10-28 23:27:12,760 - INFO - Copied 1630170.csv to main data folder
+2026-10-28 23:27:12,761 - INFO - Copied 203083.csv to main data folder
+2026-10-28 23:27:12,761 - INFO - Copied 1642363.csv to main data folder
+2026-10-28 23:27:12,761 - INFO - Copied 1629750.csv to main data folder
+2026-10-28 23:27:12,762 - INFO - Copied 1643567.csv to main data folder
+2026-10-28 23:27:12,762 - INFO - Copied 1642905.csv to main data folder
+2026-10-28 23:27:12,762 - INFO - Copied 1629674.csv to main data folder
+2026-10-28 23:27:12,763 - INFO - Copied 1642856.csv to main data folder
+2026-10-28 23:27:12,763 - INFO - Copied 1643024.csv to main data folder
+2026-10-28 23:27:12,763 - INFO - Copied 1629630.csv to main data folder
+2026-10-28 23:27:12,764 - INFO - Copied 1630702.csv to main data folder
+2026-10-28 23:27:12,764 - INFO - Copied 1642844.csv to main data folder
+2026-10-28 23:27:12,764 - INFO - Copied 1642962.csv to main data folder
+2026-10-28 23:27:12,765 - INFO - Copied 1641739.csv to main data folder
+2026-10-28 23:27:12,765 - INFO - Copied 1642367.csv to main data folder
+2026-10-28 23:27:12,765 - INFO - Copied 1629021.csv to main data folder
+2026-10-28 23:27:12,766 - INFO - Copied 203897.csv to main data folder
+2026-10-28 23:27:12,766 - INFO - Copied 1631248.csv to main data folder
+2026-10-28 23:27:12,766 - INFO - Copied 1629057.csv to main data folder
+2026-10-28 23:27:12,767 - INFO - Copied 1631342.csv to main data folder
+2026-10-28 23:27:12,767 - INFO - Copied 203944.csv to main data folder
+2026-10-28 23:27:12,767 - INFO - Copied 1641989.csv to main data folder
+2026-10-28 23:27:12,768 - INFO - Copied 1642885.csv to main data folder
+2026-10-28 23:27:12,768 - INFO - Copied 1642879.csv to main data folder
+2026-10-28 23:27:12,768 - INFO - Copied 1626172.csv to main data folder
+2026-10-28 23:27:12,769 - INFO - Copied 1629012.csv to main data folder
+2026-10-28 23:27:12,769 - INFO - Copied 1628384.csv to main data folder
+2026-10-28 23:27:12,769 - INFO - Copied 201950.csv to main data folder
+2026-10-28 23:27:12,770 - INFO - Copied 1629013.csv to main data folder
+2026-10-28 23:27:12,770 - INFO - Copied 1643414.csv to main data folder
+2026-10-28 23:27:12,770 - INFO - Copied 1642449.csv to main data folder
+2026-10-28 23:27:12,771 - INFO - Copied 1629631.csv to main data folder
+2026-10-28 23:27:12,771 - INFO - Copied 1631165.csv to main data folder
+2026-10-28 23:27:12,771 - INFO - Copied 203081.csv to main data folder
+2026-10-28 23:27:12,772 - INFO - Copied 1630249.csv to main data folder
+2026-10-28 23:27:12,772 - INFO - Copied 1630164.csv to main data folder
+2026-10-28 23:27:12,772 - INFO - Copied 1627734.csv to main data folder
+2026-10-28 23:27:12,773 - INFO - Copied 1641778.csv to main data folder
+2026-10-28 23:27:12,773 - INFO - Copied 1643538.csv to main data folder
+2026-10-28 23:27:12,773 - INFO - Copied 1643411.csv to main data folder
+2026-10-28 23:27:12,774 - INFO - Copied 1626157.csv to main data folder
+2026-10-28 23:27:12,774 - INFO - Copied 1628381.csv to main data folder
+2026-10-28 23:27:12,774 - INFO - Copied 1629029.csv to main data folder
+2026-10-28 23:27:12,775 - INFO - Copied 1630568.csv to main data folder
+2026-10-28 23:27:12,775 - INFO - Copied 1643052.csv to main data folder
+2026-10-28 23:27:12,776 - INFO - Copied 1631105.csv to main data folder
+2026-10-28 23:27:12,776 - INFO - Copied 1631321.csv to main data folder
+2026-10-28 23:27:12,777 - INFO - Copied 203084.csv to main data folder
+2026-10-28 23:27:12,777 - INFO - Copied 1630166.csv to main data folder
+2026-10-28 23:27:12,777 - INFO - Copied 1641842.csv to main data folder
+2026-10-28 23:27:12,778 - INFO - Copied 1643022.csv to main data folder
+2026-10-28 23:27:12,778 - INFO - Copied 1643542.csv to main data folder
+2026-10-28 23:27:12,778 - INFO - Copied 1643416.csv to main data folder
+2026-10-28 23:27:12,779 - INFO - Copied 1631222.csv to main data folder
+2026-10-28 23:27:12,779 - INFO - Copied 1628989.csv to main data folder
+2026-10-28 23:27:12,779 - INFO - Copied 201144.csv to main data folder
+2026-10-28 23:27:12,780 - INFO - Copied 1631199.csv to main data folder
+2026-10-28 23:27:12,780 - INFO - Daily scraping completed successfully
+2026-10-28 23:27:12,780 - INFO - Started: 2026-10-28 22:58:10
+2026-10-28 23:27:12,780 - INFO - Finished: 2026-10-28 23:27:12
+2026-10-28 23:27:12,780 - INFO - Total duration: 0:29:02.629454
